@@ -1,0 +1,17 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/omega_cf_sensitivity.py", line 182, in <module>
+    plot(names)
+    ~~~~^^^^^^^
+  File "/soge-home/users/jesu4127/southern_african_warming/src/omega_cf_sensitivity.py", line 170, in plot
+    plot_dataset(n)
+    ~~~~~~~~~~~~^^^
+  File "/soge-home/users/jesu4127/southern_african_warming/src/omega_cf_sensitivity.py", line 105, in plot_dataset
+    ps.letter(ax, k)
+    ~~~~~~~~~^^^^^^^
+  File "/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py", line 76, in letter
+    s = f"{'abcdefghijklmnopqrstuvwxyz'[i]})"
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: string index out of range

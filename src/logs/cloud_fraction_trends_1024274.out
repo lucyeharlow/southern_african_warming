@@ -1,0 +1,314 @@
+============================================
+CHIRTS overlay job
+Job ID: 1024274
+Node: ouce-cn50
+Started: Tue  3 Nov 12:09:35 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_box_monthly_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_total.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_high.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_mid.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_low.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+--- ERA5 ---
+  merra2_instM_3d_asm_Np_PS_africa_10_40: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_africa_10_40: 47 files (0 read now, 47 from the cache)
+  total: October box series trend -1.57 % per decade, p < 0.001
+  high: October box series trend -1.30 % per decade, p < 0.001
+  mid: October box series trend -0.16 % per decade, p = 0.032
+  low: October box series trend -0.33 % per decade, p < 0.001
+--- MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_africa_10_40: 428 cached, reading 130 file(s) with 5 worker(s) ...
+    25/130 read (0.1 min)
+    50/130 read (0.2 min)
+    75/130 read (0.2 min)
+    100/130 read (0.3 min)
+    125/130 read (0.4 min)
+    130/130 read (0.4 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_africa_10_40: 558 files (130 read now, 428 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_africa_10_40: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.1 min)
+    50/558 read (0.2 min)
+    75/558 read (0.5 min)
+    100/558 read (0.7 min)
+    125/558 read (1.0 min)
+    150/558 read (1.3 min)
+    175/558 read (1.4 min)
+    200/558 read (1.5 min)
+    225/558 read (1.7 min)
+    250/558 read (2.0 min)
+    275/558 read (2.2 min)
+    300/558 read (2.3 min)
+    325/558 read (2.4 min)
+    350/558 read (2.7 min)
+    375/558 read (2.8 min)
+    400/558 read (2.8 min)
+    425/558 read (2.9 min)
+    450/558 read (3.3 min)
+    475/558 read (3.6 min)
+    500/558 read (3.7 min)
+    525/558 read (3.8 min)
+    550/558 read (3.9 min)
+    558/558 read (3.9 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_africa_10_40: 558 files (558 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_africa_10_40: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.1 min)
+    50/558 read (0.2 min)
+    75/558 read (0.2 min)
+    100/558 read (0.3 min)
+    125/558 read (0.4 min)
+    150/558 read (0.7 min)
+    175/558 read (1.0 min)
+    200/558 read (1.0 min)
+    225/558 read (1.2 min)
+    250/558 read (1.3 min)
+    275/558 read (1.5 min)
+    300/558 read (1.6 min)
+    325/558 read (1.9 min)
+    350/558 read (1.9 min)
+    375/558 read (2.0 min)
+    400/558 read (2.2 min)
+    425/558 read (2.2 min)
+    450/558 read (2.3 min)
+    475/558 read (2.4 min)
+    500/558 read (2.4 min)
+    525/558 read (2.4 min)
+    550/558 read (2.8 min)
+    558/558 read (2.8 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_africa_10_40: 558 files (558 read now, 0 from the cache)
+  total: October box series trend -1.73 % per decade, p = 0.001
+  high: October box series trend -1.57 % per decade, p = 0.002
+  mid: October box series trend -0.28 % per decade, p = 0.039
+  low: October box series trend -0.48 % per decade, p = 0.005
+--- JRA-3Q ---
+  jra3q_tcdc-tcl-fc-ll125_africa_10_40: 0 cached, reading 565 file(s) with 5 worker(s) ...
+    25/565 read (0.5 min)
+    50/565 read (0.7 min)
+    75/565 read (1.3 min)
+    100/565 read (1.7 min)
+    125/565 read (2.6 min)
+    150/565 read (3.3 min)
+    175/565 read (3.7 min)
+    200/565 read (4.5 min)
+    225/565 read (4.8 min)
+    250/565 read (5.5 min)
+    275/565 read (5.8 min)
+    300/565 read (6.4 min)
+    325/565 read (6.8 min)
+    350/565 read (7.2 min)
+    375/565 read (7.8 min)
+    400/565 read (8.0 min)
+    425/565 read (8.5 min)
+    450/565 read (9.2 min)
+    475/565 read (9.4 min)
+    500/565 read (10.1 min)
+    525/565 read (10.5 min)
+    550/565 read (11.3 min)
+    565/565 read (11.6 min)
+  jra3q_tcdc-tcl-fc-ll125_africa_10_40: 565 files (565 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 0 cached, reading 565 file(s) with 5 worker(s) ...
+    25/565 read (0.6 min)
+    50/565 read (1.0 min)
+    75/565 read (1.6 min)
+    100/565 read (2.1 min)
+    125/565 read (2.7 min)
+    150/565 read (3.2 min)
+    175/565 read (3.7 min)
+    200/565 read (4.2 min)
+    225/565 read (4.9 min)
+    250/565 read (5.3 min)
+    275/565 read (6.0 min)
+    300/565 read (6.6 min)
+    325/565 read (7.3 min)
+    350/565 read (7.8 min)
+    375/565 read (8.4 min)
+    400/565 read (8.9 min)
+    425/565 read (9.5 min)
+    450/565 read (9.9 min)
+    475/565 read (10.5 min)
+    500/565 read (10.9 min)
+    525/565 read (11.3 min)
+    550/565 read (11.9 min)
+    565/565 read (12.1 min)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 565 files (565 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 0 cached, reading 565 file(s) with 5 worker(s) ...
+    25/565 read (0.5 min)
+    50/565 read (1.0 min)
+    75/565 read (1.5 min)
+    100/565 read (2.0 min)
+    125/565 read (2.7 min)
+    150/565 read (3.3 min)
+    175/565 read (3.8 min)
+    200/565 read (4.1 min)
+    225/565 read (4.6 min)
+    250/565 read (5.2 min)
+    275/565 read (5.7 min)
+    300/565 read (6.1 min)
+    325/565 read (6.6 min)
+    350/565 read (7.0 min)
+    375/565 read (7.5 min)
+    400/565 read (7.7 min)
+    425/565 read (8.0 min)
+    450/565 read (8.6 min)
+    475/565 read (9.1 min)
+    500/565 read (9.8 min)
+    525/565 read (10.1 min)
+    550/565 read (10.8 min)
+    565/565 read (11.1 min)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 565 files (565 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 0 cached, reading 565 file(s) with 5 worker(s) ...
+    25/565 read (0.7 min)
+    50/565 read (1.1 min)
+    75/565 read (1.6 min)
+    100/565 read (2.1 min)
+    125/565 read (2.8 min)
+    150/565 read (3.0 min)
+    175/565 read (3.5 min)
+    200/565 read (3.7 min)
+    225/565 read (4.4 min)
+    250/565 read (5.0 min)
+    275/565 read (5.3 min)
+    300/565 read (6.1 min)
+    325/565 read (6.6 min)
+    350/565 read (7.2 min)
+    375/565 read (7.5 min)
+    400/565 read (8.0 min)
+    425/565 read (8.5 min)
+    450/565 read (9.0 min)
+    475/565 read (9.7 min)
+    500/565 read (10.2 min)
+    525/565 read (10.9 min)
+    550/565 read (11.3 min)
+    565/565 read (11.9 min)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 565 files (565 read now, 0 from the cache)
+  total: October box series trend -0.38 % per decade, p = 0.323
+  high: October box series trend +0.16 % per decade, p = 0.653
+  mid: October box series trend -0.39 % per decade, p = 0.113
+  low: October box series trend -0.38 % per decade, p = 0.005
+--- CLARA-A3 ---
+  cmsaf_CFC_cfc_africa_10_40: 0 cached, reading 563 file(s) with 5 worker(s) ...
+    25/563 read (0.0 min)
+    50/563 read (0.0 min)
+    75/563 read (0.0 min)
+    100/563 read (0.0 min)
+    125/563 read (0.0 min)
+    150/563 read (0.0 min)
+    175/563 read (0.0 min)
+    200/563 read (0.1 min)
+    225/563 read (0.1 min)
+    250/563 read (0.1 min)
+    275/563 read (0.1 min)
+    300/563 read (0.1 min)
+    325/563 read (0.1 min)
+    350/563 read (0.1 min)
+    375/563 read (0.1 min)
+    400/563 read (0.1 min)
+    425/563 read (0.1 min)
+    450/563 read (0.1 min)
+    475/563 read (0.1 min)
+    500/563 read (0.1 min)
+    525/563 read (0.1 min)
+    550/563 read (0.1 min)
+    563/563 read (0.1 min)
+  cmsaf_CFC_cfc_africa_10_40: 561 files (561 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_africa_10_40: 0 cached, reading 563 file(s) with 5 worker(s) ...
+    25/563 read (0.0 min)
+    50/563 read (0.0 min)
+    75/563 read (0.0 min)
+    100/563 read (0.0 min)
+    125/563 read (0.0 min)
+    150/563 read (0.0 min)
+    175/563 read (0.0 min)
+    200/563 read (0.1 min)
+    225/563 read (0.1 min)
+    250/563 read (0.1 min)
+    275/563 read (0.1 min)
+    300/563 read (0.1 min)
+    325/563 read (0.1 min)
+    350/563 read (0.1 min)
+    375/563 read (0.1 min)
+    400/563 read (0.1 min)
+    425/563 read (0.1 min)
+    450/563 read (0.1 min)
+    475/563 read (0.1 min)
+    500/563 read (0.1 min)
+    525/563 read (0.1 min)
+    550/563 read (0.1 min)
+    563/563 read (0.1 min)
+  cmsaf_CFC_cfc_high_africa_10_40: 561 files (561 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_africa_10_40: 0 cached, reading 563 file(s) with 5 worker(s) ...
+    25/563 read (0.0 min)
+    50/563 read (0.0 min)
+    75/563 read (0.0 min)
+    100/563 read (0.0 min)
+    125/563 read (0.0 min)
+    150/563 read (0.0 min)
+    175/563 read (0.0 min)
+    200/563 read (0.0 min)
+    225/563 read (0.1 min)
+    250/563 read (0.1 min)
+    275/563 read (0.1 min)
+    300/563 read (0.1 min)
+    325/563 read (0.1 min)
+    350/563 read (0.1 min)
+    375/563 read (0.1 min)
+    400/563 read (0.1 min)
+    425/563 read (0.1 min)
+    450/563 read (0.1 min)
+    475/563 read (0.1 min)
+    500/563 read (0.1 min)
+    525/563 read (0.1 min)
+    550/563 read (0.1 min)
+    563/563 read (0.1 min)
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 files (561 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_africa_10_40: 0 cached, reading 563 file(s) with 5 worker(s) ...
+    25/563 read (0.0 min)
+    50/563 read (0.0 min)
+    75/563 read (0.0 min)
+    100/563 read (0.0 min)
+    125/563 read (0.0 min)
+    150/563 read (0.0 min)
+    175/563 read (0.0 min)
+    200/563 read (0.1 min)
+    225/563 read (0.1 min)
+    250/563 read (0.1 min)
+    275/563 read (0.1 min)
+    300/563 read (0.1 min)
+    325/563 read (0.1 min)
+    350/563 read (0.1 min)
+    375/563 read (0.1 min)
+    400/563 read (0.1 min)
+    425/563 read (0.1 min)
+    450/563 read (0.1 min)
+    475/563 read (0.1 min)
+    500/563 read (0.1 min)
+    525/563 read (0.1 min)
+    550/563 read (0.1 min)
+    563/563 read (0.1 min)
+  cmsaf_CFC_cfc_low_africa_10_40: 561 files (561 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  [WARN] CLARA-A3 total: cells missing in 1985 (8%); those cells are left out of the trends
+  total: October box series trend -2.51 % per decade, p < 0.001
+  [WARN] CLARA-A3 high: cells missing in 1985 (8%); those cells are left out of the trends
+  high: October box series trend -1.66 % per decade, p < 0.001
+  [WARN] CLARA-A3 mid: cells missing in 1985 (8%); those cells are left out of the trends
+  mid: October box series trend -1.03 % per decade, p < 0.001
+  [WARN] CLARA-A3 low: cells missing in 1985 (8%); those cells are left out of the trends
+  low: October box series trend +0.19 % per decade, p = 0.021
+
+============================================
+Finished: Tue  3 Nov 13:04:42 UTC 2026
+============================================

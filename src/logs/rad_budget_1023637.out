@@ -1,0 +1,22 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023637
+Node: ouce-cn50
+Started: Mon  2 Nov 17:33:18 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/radiation_budget/qnet_budget_monthly_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/radiation_budget/qnet_full_budget.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/radiation_budget/qnet_radiation_budget.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/radiation_budget/qnet_budget_monthly_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/radiation_budget/qnet_full_budget.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/radiation_budget/qnet_radiation_budget.png
+
+============================================
+Finished: Mon  2 Nov 17:33:39 UTC 2026
+============================================

@@ -1,0 +1,4 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+data files for ERA5, MERRA-2, JRA-3Q at 850 hPa are from the old percentage-point version (or another LOG_SCALE): run 'python rh.py compute' first

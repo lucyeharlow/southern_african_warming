@@ -1,0 +1,42 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023639
+Node: ouce-cn50
+Started: Mon  2 Nov 17:33:30 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0100hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0150hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0200hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0250hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0300hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0400hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0500hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0600hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0700hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0850hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0925hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_1000hPa.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0100hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0150hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0200hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0250hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0300hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0400hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0500hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0600hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0700hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0850hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0925hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_1000hPa.png
+
+============================================
+Finished: Mon  2 Nov 17:34:31 UTC 2026
+============================================

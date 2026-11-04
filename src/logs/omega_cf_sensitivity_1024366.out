@@ -1,0 +1,290 @@
+============================================
+OMEGA_CF_SENSITIVITY job
+Job ID: 1024366
+Node: ouce-cn50
+Started: Tue  3 Nov 14:20:02 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_omega_sfc: 46 files (0 read now, 46 from the cache)
+--- ERA5 ---
+  era5_w_omega_sfc_200_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.6 min)
+  era5_w_omega_sfc_200_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega200, 10-15E: 41 % of the section significant
+  omega200, 15-20E: 43 % of the section significant
+  omega200, 20-25E: 39 % of the section significant
+  omega200, 25-30E: 44 % of the section significant
+  omega200, 30-35E: 39 % of the section significant
+  omega200, 35-40E: 19 % of the section significant
+  era5_w_omega_sfc_250_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.6 min)
+  era5_w_omega_sfc_250_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega250, 10-15E: 49 % of the section significant
+  omega250, 15-20E: 57 % of the section significant
+  omega250, 20-25E: 54 % of the section significant
+  omega250, 25-30E: 60 % of the section significant
+  omega250, 30-35E: 73 % of the section significant
+  omega250, 35-40E: 34 % of the section significant
+  era5_w_omega_sfc_300_m10: 47 files (0 read now, 47 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega300, 10-15E: 54 % of the section significant
+  omega300, 15-20E: 61 % of the section significant
+  omega300, 20-25E: 61 % of the section significant
+  omega300, 25-30E: 67 % of the section significant
+  omega300, 30-35E: 77 % of the section significant
+  omega300, 35-40E: 40 % of the section significant
+  era5_w_omega_sfc_400_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.8 min)
+  era5_w_omega_sfc_400_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega400, 10-15E: 53 % of the section significant
+  omega400, 15-20E: 59 % of the section significant
+  omega400, 20-25E: 62 % of the section significant
+  omega400, 25-30E: 69 % of the section significant
+  omega400, 30-35E: 81 % of the section significant
+  omega400, 35-40E: 66 % of the section significant
+  era5_w_omega_sfc_500_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.5 min)
+  era5_w_omega_sfc_500_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega500, 10-15E: 56 % of the section significant
+  omega500, 15-20E: 51 % of the section significant
+  omega500, 20-25E: 58 % of the section significant
+  omega500, 25-30E: 71 % of the section significant
+  omega500, 30-35E: 83 % of the section significant
+  omega500, 35-40E: 69 % of the section significant
+  era5_w_omega_sfc_600_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.6 min)
+  era5_w_omega_sfc_600_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega600, 10-15E: 30 % of the section significant
+  omega600, 15-20E: 23 % of the section significant
+  omega600, 20-25E: 27 % of the section significant
+  omega600, 25-30E: 44 % of the section significant
+  omega600, 30-35E: 74 % of the section significant
+  omega600, 35-40E: 76 % of the section significant
+  era5_w_omega_sfc_700_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.3 min)
+  era5_w_omega_sfc_700_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega700, 10-15E: 10 % of the section significant
+  omega700, 15-20E: 6 % of the section significant
+  omega700, 20-25E: 7 % of the section significant
+  omega700, 25-30E: 17 % of the section significant
+  omega700, 30-35E: 33 % of the section significant
+  omega700, 35-40E: 50 % of the section significant
+  era5_w_omega_sfc_850_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.5 min)
+  era5_w_omega_sfc_850_m10: 47 files (47 read now, 0 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega850, 10-15E: 26 % of the section significant
+  omega850, 15-20E: 17 % of the section significant
+  omega850, 20-25E: 16 % of the section significant
+  omega850, 25-30E: 21 % of the section significant
+  omega850, 30-35E: 31 % of the section significant
+  omega850, 35-40E: 25 % of the section significant
+--- MERRA-2 ---
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_200: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.3 min)
+    46/46 read (0.9 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_200: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega200, 10-15E: 36 % of the section significant
+  omega200, 15-20E: 33 % of the section significant
+  omega200, 20-25E: 39 % of the section significant
+  omega200, 25-30E: 41 % of the section significant
+  omega200, 30-35E: 16 % of the section significant
+  omega200, 35-40E: 7 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_250: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.3 min)
+    46/46 read (0.5 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_250: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega250, 10-15E: 52 % of the section significant
+  omega250, 15-20E: 58 % of the section significant
+  omega250, 20-25E: 56 % of the section significant
+  omega250, 25-30E: 59 % of the section significant
+  omega250, 30-35E: 42 % of the section significant
+  omega250, 35-40E: 17 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_300: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega300, 10-15E: 57 % of the section significant
+  omega300, 15-20E: 61 % of the section significant
+  omega300, 20-25E: 60 % of the section significant
+  omega300, 25-30E: 67 % of the section significant
+  omega300, 30-35E: 50 % of the section significant
+  omega300, 35-40E: 23 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_400: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.4 min)
+    46/46 read (0.8 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_400: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega400, 10-15E: 64 % of the section significant
+  omega400, 15-20E: 61 % of the section significant
+  omega400, 20-25E: 66 % of the section significant
+  omega400, 25-30E: 76 % of the section significant
+  omega400, 30-35E: 61 % of the section significant
+  omega400, 35-40E: 39 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_500: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.3 min)
+    46/46 read (0.5 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_500: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega500, 10-15E: 67 % of the section significant
+  omega500, 15-20E: 56 % of the section significant
+  omega500, 20-25E: 60 % of the section significant
+  omega500, 25-30E: 70 % of the section significant
+  omega500, 30-35E: 70 % of the section significant
+  omega500, 35-40E: 54 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_600: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.7 min)
+    46/46 read (1.0 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_600: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega600, 10-15E: 53 % of the section significant
+  omega600, 15-20E: 35 % of the section significant
+  omega600, 20-25E: 43 % of the section significant
+  omega600, 25-30E: 51 % of the section significant
+  omega600, 30-35E: 59 % of the section significant
+  omega600, 35-40E: 65 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_700: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.3 min)
+    46/46 read (0.8 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_700: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega700, 10-15E: 41 % of the section significant
+  omega700, 15-20E: 29 % of the section significant
+  omega700, 20-25E: 36 % of the section significant
+  omega700, 25-30E: 34 % of the section significant
+  omega700, 30-35E: 35 % of the section significant
+  omega700, 35-40E: 52 % of the section significant
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_850: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.4 min)
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_850: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  [WARN] MERRA-2: cells missing in 1980 (2%), 1981 (2%), 1982 (2%), 1983 (2%), 1984 (2%), 1985 (2%), 1986 (2%), 1987 (2%), 1988 (3%), 1989 (2%), 1990 (2%), 1991 (2%) ...; those cells are left out of the trends
+  omega850, 10-15E: 37 % of the section significant
+  omega850, 15-20E: 38 % of the section significant
+  omega850, 20-25E: 32 % of the section significant
+  omega850, 25-30E: 35 % of the section significant
+  omega850, 30-35E: 22 % of the section significant
+  omega850, 35-40E: 39 % of the section significant
+--- JRA-3Q ---
+  jra3q_vvel-pres-an-ll125_omega_sfc_200: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (1.0 min)
+    46/47 read (2.0 min)
+    47/47 read (2.0 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_200: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega200, 10-15E: 43 % of the section significant
+  omega200, 15-20E: 72 % of the section significant
+  omega200, 20-25E: 65 % of the section significant
+  omega200, 25-30E: 56 % of the section significant
+  omega200, 30-35E: 41 % of the section significant
+  omega200, 35-40E: 21 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_250: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    17/47 read (1.0 min)
+    25/47 read (1.4 min)
+    47/47 read (2.4 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_250: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega250, 10-15E: 60 % of the section significant
+  omega250, 15-20E: 83 % of the section significant
+  omega250, 20-25E: 79 % of the section significant
+  omega250, 25-30E: 73 % of the section significant
+  omega250, 30-35E: 65 % of the section significant
+  omega250, 35-40E: 35 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_300: 47 files (0 read now, 47 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega300, 10-15E: 68 % of the section significant
+  omega300, 15-20E: 82 % of the section significant
+  omega300, 20-25E: 87 % of the section significant
+  omega300, 25-30E: 79 % of the section significant
+  omega300, 30-35E: 67 % of the section significant
+  omega300, 35-40E: 52 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_400: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    21/47 read (1.0 min)
+    25/47 read (1.1 min)
+    47/47 read (1.9 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_400: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega400, 10-15E: 63 % of the section significant
+  omega400, 15-20E: 81 % of the section significant
+  omega400, 20-25E: 93 % of the section significant
+  omega400, 25-30E: 82 % of the section significant
+  omega400, 30-35E: 76 % of the section significant
+  omega400, 35-40E: 53 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_500: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    22/47 read (1.3 min)
+    25/47 read (1.3 min)
+    41/47 read (2.4 min)
+    47/47 read (2.5 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_500: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega500, 10-15E: 68 % of the section significant
+  omega500, 15-20E: 74 % of the section significant
+  omega500, 20-25E: 88 % of the section significant
+  omega500, 25-30E: 87 % of the section significant
+  omega500, 30-35E: 76 % of the section significant
+  omega500, 35-40E: 65 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_600: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    21/47 read (1.0 min)
+    25/47 read (1.1 min)
+    47/47 read (2.0 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_600: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega600, 10-15E: 63 % of the section significant
+  omega600, 15-20E: 59 % of the section significant
+  omega600, 20-25E: 75 % of the section significant
+  omega600, 25-30E: 71 % of the section significant
+  omega600, 30-35E: 75 % of the section significant
+  omega600, 35-40E: 83 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_700: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (1.0 min)
+    47/47 read (2.0 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_700: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega700, 10-15E: 34 % of the section significant
+  omega700, 15-20E: 53 % of the section significant
+  omega700, 20-25E: 28 % of the section significant
+  omega700, 25-30E: 26 % of the section significant
+  omega700, 30-35E: 46 % of the section significant
+  omega700, 35-40E: 63 % of the section significant
+  jra3q_vvel-pres-an-ll125_omega_sfc_850: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    23/47 read (1.0 min)
+    25/47 read (1.1 min)
+    47/47 read (1.9 min)
+  jra3q_vvel-pres-an-ll125_omega_sfc_850: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega850, 10-15E: 34 % of the section significant
+  omega850, 15-20E: 48 % of the section significant
+  omega850, 20-25E: 26 % of the section significant
+  omega850, 25-30E: 26 % of the section significant
+  omega850, 30-35E: 47 % of the section significant
+  omega850, 35-40E: 47 % of the section significant
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf_sensitivity/omega_levels_cf_summary.csv

@@ -1,0 +1,90 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023555
+Node: ouce-cn50
+Started: Mon  2 Nov 15:59:30 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_omega: 558 files (0 read now, 558 from the cache)
+--- ERA5 ---
+  era5_w_omega_100-150-200-250-300-400-500-600-700-850-925-1000_m10: 47 files (0 read now, 47 from the cache)
+     100 hPa:    0 % of area significant
+     150 hPa:    7 % of area significant
+     200 hPa:    9 % of area significant
+     250 hPa:   11 % of area significant
+     300 hPa:   11 % of area significant
+     400 hPa:   11 % of area significant
+     500 hPa:   12 % of area significant
+     600 hPa:   14 % of area significant
+     700 hPa:   14 % of area significant
+     850 hPa:    9 % of area significant
+     925 hPa:    9 % of area significant
+    1000 hPa:    5 % of area significant
+--- MERRA-2 ---
+  merra2_instM_3d_asm_Np_OMEGA_omega_100-150-200-250-300-400-500-600-700-850-925-1000: 46 files (0 read now, 46 from the cache)
+     100 hPa:   12 % of area significant
+     150 hPa:    0 % of area significant
+     200 hPa:   12 % of area significant
+     250 hPa:   24 % of area significant
+     300 hPa:   34 % of area significant
+     400 hPa:   32 % of area significant
+     500 hPa:   19 % of area significant
+     600 hPa:   17 % of area significant
+     700 hPa:   16 % of area significant
+     850 hPa:   13 % of area significant
+     925 hPa:   14 % of area significant
+    1000 hPa:    8 % of area significant
+--- JRA-3Q ---
+  jra3q_vvel-pres-an-ll125_omega_100-150-200-250-300-400-500-600-700-850-925-1000: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    22/47 read (1.1 min)
+    25/47 read (1.1 min)
+    41/47 read (2.1 min)
+    47/47 read (2.3 min)
+  jra3q_vvel-pres-an-ll125_omega_100-150-200-250-300-400-500-600-700-850-925-1000: 47 files (47 read now, 0 from the cache)
+     100 hPa:    0 % of area significant
+     150 hPa:    0 % of area significant
+     200 hPa:   10 % of area significant
+     250 hPa:   12 % of area significant
+     300 hPa:   13 % of area significant
+     400 hPa:   11 % of area significant
+     500 hPa:   16 % of area significant
+     600 hPa:   17 % of area significant
+     700 hPa:   11 % of area significant
+     850 hPa:   10 % of area significant
+     925 hPa:   11 % of area significant
+    1000 hPa:   11 % of area significant
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0100hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0150hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0200hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0250hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0300hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0400hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0500hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0600hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0700hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0850hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0925hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_1000hPa.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0100hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0150hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0200hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0250hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0300hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0400hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0500hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0600hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0700hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0850hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_0925hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega/omega_trends_1000hPa.png
+
+============================================
+Finished: Mon  2 Nov 16:04:09 UTC 2026
+============================================

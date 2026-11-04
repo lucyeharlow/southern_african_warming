@@ -1,0 +1,9 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/omega_surface.py", line 206, in <module>
+    plot(months, var_list)
+  File "/soge-home/users/jesu4127/southern_african_warming/src/omega_surface.py", line 109, in plot
+    import cartopy.crs as ccrs
+ModuleNotFoundError: No module named 'cartopy'

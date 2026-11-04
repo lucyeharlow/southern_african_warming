@@ -1,0 +1,203 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023655
+Node: ouce-cn50
+Started: Mon  2 Nov 18:12:30 UTC 2026
+============================================
+--- ERA5 ---
+  Southern Africa from t2m_ERA5.nc
+  month  1: median trend SA +0.10, tropics +0.23, globe +0.28 degC/decade
+  month  2: median trend SA +0.18, tropics +0.24, globe +0.27 degC/decade
+  month  3: median trend SA +0.14, tropics +0.23, globe +0.32 degC/decade
+  month  4: median trend SA +0.09, tropics +0.22, globe +0.28 degC/decade
+  month  5: median trend SA +0.14, tropics +0.21, globe +0.27 degC/decade
+  month  6: median trend SA +0.22, tropics +0.24, globe +0.28 degC/decade
+  month  7: median trend SA +0.16, tropics +0.25, globe +0.28 degC/decade
+  month  8: median trend SA +0.25, tropics +0.24, globe +0.28 degC/decade
+  month  9: median trend SA +0.30, tropics +0.30, globe +0.37 degC/decade
+  month 10: median trend SA +0.46, tropics +0.33, globe +0.37 degC/decade
+  month 11: median trend SA +0.27, tropics +0.28, globe +0.34 degC/decade
+  month 12: median trend SA +0.21, tropics +0.27, globe +0.29 degC/decade
+  saved /hn01-home/jesu4127/southern_african_warming/data/temperature_regions/t2m_regions_ERA5.nc
+--- MERRA-2 ---
+  Southern Africa from t2m_MERRA2.nc
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.4 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  1: median trend SA +0.03, tropics +0.18, globe +0.19 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.3 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  2: median trend SA +0.13, tropics +0.22, globe +0.20 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.4 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  3: median trend SA +0.10, tropics +0.20, globe +0.27 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.5 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  4: median trend SA +0.08, tropics +0.19, globe +0.22 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.4 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  5: median trend SA +0.14, tropics +0.20, globe +0.21 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.3 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  6: median trend SA +0.19, tropics +0.21, globe +0.22 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.7 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 47 files (47 read now, 0 from the cache)
+  month  7: median trend SA +0.14, tropics +0.24, globe +0.23 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.1 min)
+    46/46 read (0.3 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 46 files (46 read now, 0 from the cache)
+  month  8: median trend SA +0.20, tropics +0.21, globe +0.25 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.4 min)
+    46/46 read (0.7 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 46 files (46 read now, 0 from the cache)
+  month  9: median trend SA +0.15, tropics +0.23, globe +0.31 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.1 min)
+    46/46 read (0.2 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 46 files (46 read now, 0 from the cache)
+  month 10: median trend SA +0.32, tropics +0.29, globe +0.32 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.6 min)
+    46/46 read (0.8 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 46 files (46 read now, 0 from the cache)
+  month 11: median trend SA +0.22, tropics +0.24, globe +0.26 degC/decade
+  merra2_instM_2d_asm_Nx_T2M_global: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.4 min)
+    46/46 read (0.8 min)
+  merra2_instM_2d_asm_Nx_T2M_global: 46 files (46 read now, 0 from the cache)
+  month 12: median trend SA +0.18, tropics +0.21, globe +0.19 degC/decade
+  saved /hn01-home/jesu4127/southern_african_warming/data/temperature_regions/t2m_regions_MERRA2.nc
+--- JRA-3Q ---
+  Southern Africa from t2m_JRA3Q.nc
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.6 min)
+    47/47 read (1.1 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  1: median trend SA +0.07, tropics +0.19, globe +0.26 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.8 min)
+    47/47 read (1.3 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  2: median trend SA +0.16, tropics +0.20, globe +0.26 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.5 min)
+    47/47 read (1.1 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  3: median trend SA +0.10, tropics +0.17, globe +0.31 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.6 min)
+    47/47 read (1.0 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  4: median trend SA +0.09, tropics +0.16, globe +0.26 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.5 min)
+    47/47 read (1.1 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  5: median trend SA +0.16, tropics +0.17, globe +0.24 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.5 min)
+    47/47 read (1.1 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  6: median trend SA +0.26, tropics +0.22, globe +0.26 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.7 min)
+    47/47 read (1.2 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  7: median trend SA +0.20, tropics +0.22, globe +0.26 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.7 min)
+    47/47 read (1.1 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  8: median trend SA +0.29, tropics +0.21, globe +0.28 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.7 min)
+    47/47 read (1.1 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month  9: median trend SA +0.31, tropics +0.25, globe +0.37 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.6 min)
+    47/47 read (1.0 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month 10: median trend SA +0.40, tropics +0.26, globe +0.36 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.8 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month 11: median trend SA +0.23, tropics +0.23, globe +0.33 degC/decade
+  jra3q_tmp2m-hgt-an-gauss_global: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.7 min)
+  jra3q_tmp2m-hgt-an-gauss_global: 47 files (47 read now, 0 from the cache)
+  month 12: median trend SA +0.19, tropics +0.24, globe +0.27 degC/decade
+  saved /hn01-home/jesu4127/southern_african_warming/data/temperature_regions/t2m_regions_JRA3Q.nc
+--- NOAA ---
+  Southern Africa from t2m_NOAA.nc
+  month  1: median trend SA +0.09, tropics +0.24, globe +0.26 degC/decade
+  month  2: median trend SA +0.14, tropics +0.22, globe +0.24 degC/decade
+  month  3: median trend SA +0.12, tropics +0.22, globe +0.29 degC/decade
+  month  4: median trend SA +0.09, tropics +0.22, globe +0.26 degC/decade
+  month  5: median trend SA +0.20, tropics +0.22, globe +0.25 degC/decade
+  month  6: median trend SA +0.28, tropics +0.25, globe +0.28 degC/decade
+  month  7: median trend SA +0.15, tropics +0.25, globe +0.28 degC/decade
+  month  8: median trend SA +0.29, tropics +0.25, globe +0.29 degC/decade
+  month  9: median trend SA +0.30, tropics +0.27, globe +0.33 degC/decade
+  month 10: median trend SA +0.35, tropics +0.29, globe +0.33 degC/decade
+  month 11: median trend SA +0.24, tropics +0.27, globe +0.30 degC/decade
+  month 12: median trend SA +0.21, tropics +0.27, globe +0.26 degC/decade
+  saved /hn01-home/jesu4127/southern_african_warming/data/temperature_regions/t2m_regions_NOAA.nc
+--- CRUTEM5 ---
+  Southern Africa from t2m_CRUTEM5.nc
+  [WARN] CRUTEM5 month 1: cells missing in 1980 (1%), 1981 (2%), 1982 (4%), 1983 (4%), 1984 (3%), 1985 (2%), 1986 (3%), 1987 (3%), 1988 (4%), 1989 (4%), 1990 (4%), 1991 (4%) ...; those cells are left out of the trends
+  month  1: median trend SA +nan, tropics +0.23, globe +0.28 degC/decade
+  [WARN] CRUTEM5 month 2: cells missing in 1980 (2%), 1981 (3%), 1982 (3%), 1983 (3%), 1984 (3%), 1985 (2%), 1986 (2%), 1987 (3%), 1988 (4%), 1989 (3%), 1990 (4%), 1991 (6%) ...; those cells are left out of the trends
+  month  2: median trend SA +0.20, tropics +0.19, globe +0.30 degC/decade
+  [WARN] CRUTEM5 month 3: cells missing in 1981 (2%), 1982 (3%), 1983 (3%), 1984 (2%), 1985 (2%), 1986 (3%), 1987 (3%), 1988 (4%), 1989 (3%), 1990 (4%), 1991 (6%), 1992 (6%) ...; those cells are left out of the trends
+  month  3: median trend SA +nan, tropics +0.25, globe +0.43 degC/decade
+  [WARN] CRUTEM5 month 4: cells missing in 1980 (1%), 1981 (2%), 1982 (3%), 1983 (2%), 1984 (2%), 1985 (2%), 1986 (2%), 1987 (3%), 1988 (4%), 1989 (3%), 1990 (4%), 1991 (6%) ...; those cells are left out of the trends
+  month  4: median trend SA +nan, tropics +0.16, globe +0.41 degC/decade
+  [WARN] CRUTEM5 month 5: cells missing in 1980 (2%), 1981 (3%), 1982 (3%), 1983 (2%), 1984 (2%), 1985 (2%), 1986 (2%), 1987 (4%), 1988 (3%), 1989 (3%), 1990 (3%), 1991 (6%) ...; those cells are left out of the trends
+  month  5: median trend SA +0.15, tropics +0.14, globe +0.27 degC/decade
+  [WARN] CRUTEM5 month 6: cells missing in 1981 (2%), 1982 (3%), 1983 (2%), 1984 (3%), 1985 (2%), 1986 (4%), 1987 (3%), 1988 (4%), 1989 (3%), 1990 (4%), 1991 (6%), 1992 (6%) ...; those cells are left out of the trends
+  month  6: median trend SA +0.33, tropics +0.18, globe +0.32 degC/decade
+  [WARN] CRUTEM5 month 7: cells missing in 1981 (2%), 1982 (3%), 1983 (2%), 1984 (2%), 1985 (3%), 1986 (3%), 1987 (3%), 1988 (4%), 1989 (3%), 1990 (4%), 1991 (7%), 1992 (7%) ...; those cells are left out of the trends
+  month  7: median trend SA +0.29, tropics +0.23, globe +0.30 degC/decade
+  [WARN] CRUTEM5 month 8: cells missing in 1981 (2%), 1982 (3%), 1983 (1%), 1984 (2%), 1985 (2%), 1986 (3%), 1987 (3%), 1988 (3%), 1989 (3%), 1990 (4%), 1991 (5%), 1992 (5%) ...; those cells are left out of the trends
+  month  8: median trend SA +0.23, tropics +0.16, globe +0.30 degC/decade
+  [WARN] CRUTEM5 month 9: cells missing in 1981 (2%), 1982 (2%), 1983 (2%), 1984 (3%), 1985 (1%), 1986 (3%), 1987 (3%), 1988 (4%), 1989 (4%), 1990 (4%), 1991 (6%), 1992 (5%) ...; those cells are left out of the trends
+  month  9: median trend SA +0.21, tropics +0.26, globe +0.35 degC/decade
+  [WARN] CRUTEM5 month 10: cells missing in 1980 (1%), 1981 (2%), 1982 (2%), 1983 (2%), 1984 (2%), 1985 (2%), 1986 (3%), 1987 (3%), 1988 (3%), 1989 (4%), 1990 (4%), 1991 (5%) ...; those cells are left out of the trends
+  month 10: median trend SA +0.36, tropics +0.29, globe +0.33 degC/decade
+  [WARN] CRUTEM5 month 11: cells missing in 1981 (2%), 1982 (3%), 1983 (2%), 1984 (3%), 1985 (2%), 1986 (3%), 1987 (4%), 1988 (4%), 1989 (3%), 1990 (5%), 1991 (6%), 1992 (7%) ...; those cells are left out of the trends
+  month 11: median trend SA +0.21, tropics +0.24, globe +0.30 degC/decade
+  [WARN] CRUTEM5 month 12: cells missing in 1980 (1%), 1981 (4%), 1982 (3%), 1983 (2%), 1984 (2%), 1985 (3%), 1986 (3%), 1987 (3%), 1988 (4%), 1989 (3%), 1990 (5%), 1991 (7%) ...; those cells are left out of the trends
+  month 12: median trend SA +nan, tropics +0.26, globe +0.27 degC/decade
+  saved /hn01-home/jesu4127/southern_african_warming/data/temperature_regions/t2m_regions_CRUTEM5.nc
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_regions/t2m_trends_regions.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_regions/t2m_trends_regions.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_regions/t2m_trends_regions.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_regions/t2m_trends_regions.png
+
+============================================
+Finished: Mon  2 Nov 18:51:30 UTC 2026
+============================================

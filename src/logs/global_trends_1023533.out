@@ -1,0 +1,61 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023533
+Node: ouce-cn50
+Started: Mon  2 Nov 15:44:32 UTC 2026
+============================================
+--- ERA5 ---
+  Qrad: area-weighted mean +0.56 W m-2 per decade, 22 % of land significant
+  SWdn: area-weighted mean +1.10 W m-2 per decade, 20 % of land significant
+  LWdn: area-weighted mean +1.57 W m-2 per decade, 56 % of land significant
+  LH: area-weighted mean -0.35 W m-2 per decade, 26 % of land significant
+  SH: area-weighted mean +0.96 W m-2 per decade, 28 % of land significant
+  RES: area-weighted mean -0.05 W m-2 per decade, 16 % of land significant
+--- MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_SWGNT_tropics: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_rad_Nx_LWGNT_tropics: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_rad_Nx_SWGDN_tropics: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_rad_Nx_LWGAB_tropics: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_flx_Nx_EFLUX_tropics: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_flx_Nx_HFLUX_tropics: 46 files (0 read now, 46 from the cache)
+  Qrad: area-weighted mean -0.10 W m-2 per decade, 25 % of land significant
+  SWdn: area-weighted mean -0.53 W m-2 per decade, 10 % of land significant
+  LWdn: area-weighted mean +2.18 W m-2 per decade, 67 % of land significant
+  LH: area-weighted mean -0.67 W m-2 per decade, 22 % of land significant
+  SH: area-weighted mean +0.54 W m-2 per decade, 24 % of land significant
+  RES: area-weighted mean +0.03 W m-2 per decade, 1 % of land significant
+--- JRA-3Q ---
+  jra3q_dswrf1have-sfc-fc-ll125_tropics: 47 files (0 read now, 47 from the cache)
+  jra3q_dlwrf1have-sfc-fc-ll125_tropics: 47 files (0 read now, 47 from the cache)
+  jra3q_uswrf1have-sfc-fc-ll125_tropics: 47 files (0 read now, 47 from the cache)
+  jra3q_ulwrf1have-sfc-fc-ll125_tropics: 47 files (0 read now, 47 from the cache)
+  jra3q_lhtfl1have-sfc-fc-ll125_tropics: 47 files (0 read now, 47 from the cache)
+  jra3q_shtfl1have-sfc-fc-ll125_tropics: 47 files (0 read now, 47 from the cache)
+  JRA-3Q October latent heat over land +56.5 W m-2: files are upward positive
+  Qrad: area-weighted mean +0.15 W m-2 per decade, 14 % of land significant
+  SWdn: area-weighted mean -0.24 W m-2 per decade, 15 % of land significant
+  LWdn: area-weighted mean +1.91 W m-2 per decade, 61 % of land significant
+  LH: area-weighted mean +0.13 W m-2 per decade, 20 % of land significant
+  SH: area-weighted mean +0.09 W m-2 per decade, 13 % of land significant
+  RES: area-weighted mean -0.07 W m-2 per decade, 4 % of land significant
+--- CLARA-A3 ---
+  cmsaf_SIS_SIS_tropics: 46 files (0 read now, 46 from the cache)
+  cmsaf_SDL_SDL_tropics: 46 files (0 read now, 46 from the cache)
+  cmsaf_SNS_SNS_tropics: 46 files (0 read now, 46 from the cache)
+  cmsaf_SNL_SNL_tropics: 46 files (0 read now, 46 from the cache)
+  [WARN] CLARA-A3 Qrad: cells missing in 1982 (1%), 1984 (5%), 1985 (2%), 1986 (2%), 1988 (2%), 1993 (2%), 1994 (10%), 1997 (1%), 2000 (33%), 2020 (1%); those cells are left out of the trends
+  Qrad: area-weighted mean +2.95 W m-2 per decade, 62 % of land significant
+  SWdn: area-weighted mean +3.25 W m-2 per decade, 33 % of land significant
+  LWdn: area-weighted mean +1.73 W m-2 per decade, 58 % of land significant
+Saved: /hn01-home/jesu4127/southern_african_warming/results/global_flux/october_flux_trends_tropics.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/global_flux/october_flux_trends_tropics.png
+
+============================================
+Finished: Mon  2 Nov 15:49:47 UTC 2026
+============================================

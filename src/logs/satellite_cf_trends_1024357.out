@@ -1,0 +1,16 @@
+============================================
+CHIRTS overlay job
+Job ID: 1024357
+Node: ouce-cn50
+Started: Tue  3 Nov 14:10:33 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction_satellite/cloud_fraction_satellite.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction_satellite/cf_band_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction_satellite/cf_band_trends.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction_satellite/cf_latitude_bands_map.png
+
+Python version:
+Python 3.12.3
+
+Starting analysis...
+============================================

@@ -1,0 +1,45 @@
+============================================
+CHIRTS overlay job
+Job ID: 1025429
+Node: ouce-cn39
+Started: Wed  4 Nov 17:58:38 UTC 2026
+============================================
+--- t2m, ERA5 ---
+  cells: 8030, median r1 -0.10 (bias-corrected -0.08); % of area failing: ar1_not_enough 8, r1_bias 0, non_normal 2, heteroscedastic 9, curvature 6, breakpoint 6, small_n_eff 0, test_disagrees 3
+  box: trend +0.452/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.20, r2 -0.31 (AR(1): 0.04)
+--- t2m, MERRA-2 ---
+  merra2_instM_2d_asm_Nx_T2M_southern_africa: 111 cached, reading 448 file(s) with 5 worker(s) ...
+    25/448 read (0.0 min)
+    50/448 read (0.0 min)
+    75/448 read (0.0 min)
+    100/448 read (0.0 min)
+    125/448 read (0.0 min)
+    150/448 read (0.0 min)
+    175/448 read (0.0 min)
+    200/448 read (0.1 min)
+    225/448 read (0.1 min)
+    250/448 read (0.1 min)
+    275/448 read (0.1 min)
+    300/448 read (0.1 min)
+    325/448 read (0.1 min)
+    350/448 read (0.1 min)
+    375/448 read (0.1 min)
+    400/448 read (0.1 min)
+    425/448 read (0.1 min)
+    448/448 read (0.1 min)
+  merra2_instM_2d_asm_Nx_T2M_southern_africa: 559 files (448 read now, 111 from the cache)
+  cells: 1620, median r1 -0.11 (bias-corrected -0.09); % of area failing: ar1_not_enough 7, r1_bias 0, non_normal 8, heteroscedastic 5, curvature 7, breakpoint 10, small_n_eff 0, test_disagrees 5
+  box: trend +0.315/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.19, r2 -0.25 (AR(1): 0.04)
+--- t2m, JRA-3Q ---
+  jra3q_tmp2m-hgt-an-gauss_southern_africa: 0 cached, reading 564 file(s) with 5 worker(s) ...
+    25/564 read (0.1 min)
+    50/564 read (0.3 min)
+    75/564 read (0.4 min)
+    100/564 read (0.6 min)
+    125/564 read (0.7 min)
+    150/564 read (0.8 min)
+    175/564 read (1.0 min)
+    200/564 read (1.1 min)
+    225/564 read (1.3 min)
+    250/564 read (1.4 min)
+    275/564 read (1.5 min)

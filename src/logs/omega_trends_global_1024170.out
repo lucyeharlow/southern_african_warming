@@ -1,0 +1,252 @@
+============================================
+CHIRTS overlay job
+Job ID: 1024170
+Node: ouce-cn50
+Started: Tue  3 Nov 11:33:23 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_global: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.8 min)
+  merra2_instM_3d_asm_Np_PS_global: 46 files (46 read now, 0 from the cache)
+--- ERA5, 100 hPa ---
+  era5_w_global_100_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.8 min)
+  era5_w_global_100_m10: 47 files (47 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_ERA5_0100.nc
+--- MERRA-2, 100 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_100: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.3 min)
+    46/46 read (0.6 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_100: 46 files (46 read now, 0 from the cache)
+  4 % of the globe significant; saved omega_MERRA2_0100.nc
+--- JRA-3Q, 100 hPa ---
+  jra3q_vvel-pres-an-ll125_global_100: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    21/47 read (1.2 min)
+    25/47 read (1.2 min)
+    47/47 read (1.9 min)
+  jra3q_vvel-pres-an-ll125_global_100: 47 files (47 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_JRA3Q_0100.nc
+--- ERA5, 150 hPa ---
+  era5_w_global_150_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.7 min)
+    47/47 read (0.9 min)
+  era5_w_global_150_m10: 47 files (47 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_ERA5_0150.nc
+--- MERRA-2, 150 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_150: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.6 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_150: 46 files (46 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_MERRA2_0150.nc
+--- JRA-3Q, 150 hPa ---
+  jra3q_vvel-pres-an-ll125_global_150: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.9 min)
+    47/47 read (1.8 min)
+  jra3q_vvel-pres-an-ll125_global_150: 47 files (47 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_JRA3Q_0150.nc
+--- ERA5, 200 hPa ---
+  era5_w_global_200_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.6 min)
+  era5_w_global_200_m10: 47 files (47 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_ERA5_0200.nc
+--- MERRA-2, 200 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_200: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.3 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_200: 46 files (46 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_MERRA2_0200.nc
+--- JRA-3Q, 200 hPa ---
+  jra3q_vvel-pres-an-ll125_global_200: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    23/47 read (1.0 min)
+    25/47 read (1.1 min)
+    47/47 read (1.7 min)
+  jra3q_vvel-pres-an-ll125_global_200: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_JRA3Q_0200.nc
+--- ERA5, 250 hPa ---
+  era5_w_global_250_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.6 min)
+    47/47 read (0.8 min)
+  era5_w_global_250_m10: 47 files (47 read now, 0 from the cache)
+  0 % of the globe significant; saved omega_ERA5_0250.nc
+--- MERRA-2, 250 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_250: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.3 min)
+    46/46 read (0.5 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_250: 46 files (46 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_MERRA2_0250.nc
+--- JRA-3Q, 250 hPa ---
+  jra3q_vvel-pres-an-ll125_global_250: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.9 min)
+    47/47 read (1.7 min)
+  jra3q_vvel-pres-an-ll125_global_250: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_JRA3Q_0250.nc
+--- ERA5, 300 hPa ---
+  era5_w_global_300_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.8 min)
+  era5_w_global_300_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0300.nc
+--- MERRA-2, 300 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_300: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.3 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_300: 46 files (46 read now, 0 from the cache)
+  3 % of the globe significant; saved omega_MERRA2_0300.nc
+--- JRA-3Q, 300 hPa ---
+  jra3q_vvel-pres-an-ll125_global_300: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    22/47 read (1.0 min)
+    25/47 read (1.1 min)
+    47/47 read (1.9 min)
+  jra3q_vvel-pres-an-ll125_global_300: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_JRA3Q_0300.nc
+--- ERA5, 400 hPa ---
+  era5_w_global_400_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.5 min)
+    47/47 read (0.6 min)
+  era5_w_global_400_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0400.nc
+--- MERRA-2, 400 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_400: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.2 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_400: 46 files (46 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_MERRA2_0400.nc
+--- JRA-3Q, 400 hPa ---
+  jra3q_vvel-pres-an-ll125_global_400: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.9 min)
+    47/47 read (1.4 min)
+  jra3q_vvel-pres-an-ll125_global_400: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_JRA3Q_0400.nc
+--- ERA5, 500 hPa ---
+  era5_w_global_500_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.7 min)
+  era5_w_global_500_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0500.nc
+--- MERRA-2, 500 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_500: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.2 min)
+    46/46 read (0.2 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_500: 46 files (46 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_MERRA2_0500.nc
+--- JRA-3Q, 500 hPa ---
+  jra3q_vvel-pres-an-ll125_global_500: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (1.0 min)
+    47/47 read (1.7 min)
+  jra3q_vvel-pres-an-ll125_global_500: 47 files (47 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_JRA3Q_0500.nc
+--- ERA5, 600 hPa ---
+  era5_w_global_600_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.3 min)
+  era5_w_global_600_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0600.nc
+--- MERRA-2, 600 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_600: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.1 min)
+    46/46 read (0.1 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_600: 46 files (46 read now, 0 from the cache)
+  3 % of the globe significant; saved omega_MERRA2_0600.nc
+--- JRA-3Q, 600 hPa ---
+  jra3q_vvel-pres-an-ll125_global_600: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.8 min)
+    47/47 read (1.5 min)
+  jra3q_vvel-pres-an-ll125_global_600: 47 files (47 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_JRA3Q_0600.nc
+--- ERA5, 700 hPa ---
+  era5_w_global_700_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.5 min)
+  era5_w_global_700_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0700.nc
+--- MERRA-2, 700 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_700: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.1 min)
+    46/46 read (0.3 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_700: 46 files (46 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_MERRA2_0700.nc
+--- JRA-3Q, 700 hPa ---
+  jra3q_vvel-pres-an-ll125_global_700: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.9 min)
+    47/47 read (1.7 min)
+  jra3q_vvel-pres-an-ll125_global_700: 47 files (47 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_JRA3Q_0700.nc
+--- ERA5, 850 hPa ---
+  era5_w_global_850_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.5 min)
+  era5_w_global_850_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0850.nc
+--- MERRA-2, 850 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_850: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.4 min)
+    46/46 read (0.4 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_850: 46 files (46 read now, 0 from the cache)
+  3 % of the globe significant; saved omega_MERRA2_0850.nc
+--- JRA-3Q, 850 hPa ---
+  jra3q_vvel-pres-an-ll125_global_850: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    24/47 read (1.0 min)
+    25/47 read (1.0 min)
+    47/47 read (1.8 min)
+  jra3q_vvel-pres-an-ll125_global_850: 47 files (47 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_JRA3Q_0850.nc
+--- ERA5, 925 hPa ---
+  era5_w_global_925_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.6 min)
+  era5_w_global_925_m10: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_ERA5_0925.nc
+--- MERRA-2, 925 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_925: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.4 min)
+    46/46 read (0.7 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_925: 46 files (46 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_MERRA2_0925.nc
+--- JRA-3Q, 925 hPa ---
+  jra3q_vvel-pres-an-ll125_global_925: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.8 min)
+    47/47 read (1.7 min)
+  jra3q_vvel-pres-an-ll125_global_925: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_JRA3Q_0925.nc
+--- ERA5, 1000 hPa ---
+  era5_w_global_1000_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.4 min)
+    47/47 read (0.6 min)
+  era5_w_global_1000_m10: 47 files (47 read now, 0 from the cache)
+  2 % of the globe significant; saved omega_ERA5_1000.nc
+--- MERRA-2, 1000 hPa ---
+  merra2_instM_3d_asm_Np_OMEGA_global_1000: 0 cached, reading 46 file(s) with 5 worker(s) ...
+    25/46 read (0.4 min)
+    46/46 read (0.6 min)
+  merra2_instM_3d_asm_Np_OMEGA_global_1000: 46 files (46 read now, 0 from the cache)
+  [WARN] MERRA-2 1000 hPa: cells missing in 1980 (3%), 1981 (3%), 1982 (3%), 1983 (4%), 1984 (4%), 1985 (4%), 1986 (6%), 1987 (2%), 1988 (6%), 1989 (4%), 1990 (3%), 1991 (3%) ...; those cells are left out of the trends
+  3 % of the globe significant; saved omega_MERRA2_1000.nc
+--- JRA-3Q, 1000 hPa ---
+  jra3q_vvel-pres-an-ll125_global_1000: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    18/47 read (1.1 min)
+    25/47 read (1.5 min)
+    42/47 read (2.5 min)
+    47/47 read (2.6 min)
+  jra3q_vvel-pres-an-ll125_global_1000: 47 files (47 read now, 0 from the cache)
+  1 % of the globe significant; saved omega_JRA3Q_1000.nc
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0100hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0150hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0200hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0250hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0300hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0400hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0500hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0600hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0700hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0850hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0925hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_1000hPa.png
+
+Python version:
+Python 3.12.3
+
+Starting analysis...
+============================================

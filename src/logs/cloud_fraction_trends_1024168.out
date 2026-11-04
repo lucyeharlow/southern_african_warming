@@ -1,0 +1,18 @@
+============================================
+CHIRTS overlay job
+Job ID: 1024168
+Node: ouce-cn51
+Started: Tue  3 Nov 11:32:47 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_box_monthly_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_total.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_high.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_mid.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_low.png
+
+Python version:
+Python 3.12.3
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/cloud_fraction/cloud_fraction_box_monthly_trends.csv

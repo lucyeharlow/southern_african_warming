@@ -1,0 +1,5 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/vpot_reanalyses.py", line 14, in <module>
+    import velocity_potential as vp
+ModuleNotFoundError: No module named 'velocity_potential'

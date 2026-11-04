@@ -1,0 +1,15 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/rh_reconstructed.py", line 322, in <module>
+    plot()
+    ~~~~^^
+  File "/soge-home/users/jesu4127/southern_african_warming/src/rh_reconstructed.py", line 169, in plot
+    "box_100_trend_ln_rh": float(o.box_ln_rh_trend),
+                                 ^^^^^^^^^^^^^^^^^
+  File "/hn01-home/jesu4127/micromamba/envs/myenv/lib/python3.13/site-packages/xarray/core/common.py", line 306, in __getattr__
+    raise AttributeError(
+        f"{type(self).__name__!r} object has no attribute {name!r}"
+    )
+AttributeError: 'Dataset' object has no attribute 'box_ln_rh_trend'. Did you mean: 'box_rh_trend'?

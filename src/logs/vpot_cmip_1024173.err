@@ -1,0 +1,9 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/vpot_cmip.py", line 23, in <module>
+    vp.plot_group(NAMES, f"vp{vp.LEVEL:.0f}_cmip6_october", vp.figure_title("CMIP6 multi-model means"))
+  File "/hn01-home/jesu4127/southern_african_warming/src/vpot.py", line 194, in plot_group
+    import cartopy.crs as ccrs
+ModuleNotFoundError: No module named 'cartopy'

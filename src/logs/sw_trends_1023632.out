@@ -1,0 +1,134 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023632
+Node: ouce-cn50
+Started: Mon  2 Nov 17:09:15 UTC 2026
+============================================
+--- ERA5 ---
+  1980-2025: October Southern Africa median trend +3.75 W m-2/decade, 71 % of area significant; regional +3.64, p < 0.001
+--- MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_SWGDN_africa_south: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.4 min)
+    50/558 read (0.4 min)
+    75/558 read (0.4 min)
+    100/558 read (0.5 min)
+    125/558 read (0.5 min)
+    150/558 read (0.6 min)
+    175/558 read (0.8 min)
+    200/558 read (0.9 min)
+    225/558 read (0.9 min)
+    250/558 read (1.0 min)
+    275/558 read (1.0 min)
+    300/558 read (1.1 min)
+    325/558 read (1.3 min)
+    350/558 read (1.4 min)
+    375/558 read (1.4 min)
+    400/558 read (1.6 min)
+    425/558 read (1.6 min)
+    450/558 read (1.7 min)
+    475/558 read (1.8 min)
+    500/558 read (1.9 min)
+    525/558 read (2.1 min)
+    550/558 read (2.2 min)
+    558/558 read (2.2 min)
+  merra2_tavgM_2d_rad_Nx_SWGDN_africa_south: 558 files (558 read now, 0 from the cache)
+  1980-2025: October Southern Africa median trend -0.55 W m-2/decade, 11 % of area significant; regional -0.50, p = 0.603
+--- JRA-3Q ---
+  jra3q_dswrf1have-sfc-fc-ll125_tropics: 47 cached, reading 518 file(s) with 5 worker(s) ...
+    25/518 read (0.6 min)
+    50/518 read (1.2 min)
+    75/518 read (2.0 min)
+    100/518 read (2.7 min)
+    125/518 read (3.5 min)
+    150/518 read (4.2 min)
+    175/518 read (4.9 min)
+    200/518 read (5.5 min)
+    225/518 read (6.3 min)
+    250/518 read (6.8 min)
+    275/518 read (7.5 min)
+    300/518 read (8.1 min)
+    325/518 read (8.6 min)
+    350/518 read (9.1 min)
+    375/518 read (9.7 min)
+    400/518 read (10.2 min)
+    425/518 read (11.1 min)
+    450/518 read (11.5 min)
+    475/518 read (12.4 min)
+    500/518 read (12.9 min)
+    518/518 read (13.4 min)
+  jra3q_dswrf1have-sfc-fc-ll125_tropics: 565 files (518 read now, 47 from the cache)
+  1980-2025: October Southern Africa median trend +1.31 W m-2/decade, 5 % of area significant; regional +1.25, p = 0.039
+--- CLARA-A3 ---
+  cmsaf_SIS_SIS_africa_south: 0 cached, reading 563 file(s) with 5 worker(s) ...
+    25/563 read (0.0 min)
+    50/563 read (0.0 min)
+    75/563 read (0.0 min)
+    100/563 read (0.0 min)
+    125/563 read (0.0 min)
+    150/563 read (0.0 min)
+    175/563 read (0.0 min)
+    200/563 read (0.0 min)
+    225/563 read (0.1 min)
+    250/563 read (0.1 min)
+    275/563 read (0.1 min)
+    300/563 read (0.1 min)
+    325/563 read (0.1 min)
+    350/563 read (0.1 min)
+    375/563 read (0.1 min)
+    400/563 read (0.1 min)
+    425/563 read (0.1 min)
+    450/563 read (0.1 min)
+    475/563 read (0.1 min)
+    500/563 read (0.1 min)
+    525/563 read (0.1 min)
+    550/563 read (0.1 min)
+    563/563 read (0.1 min)
+  cmsaf_SIS_SIS_africa_south: 563 files (563 read now, 0 from the cache)
+  [WARN] CLARA-A3 May: cells missing in 1982 (6%), 1994 (8%); those cells are left out of the trends
+  [WARN] CLARA-A3 Jun: cells missing in 1994 (39%), 1998 (7%), 1999 (3%), 2000 (4%); those cells are left out of the trends
+  [WARN] CLARA-A3 Jul: cells missing in 1994 (31%), 1998 (3%); those cells are left out of the trends
+  1982-2024: October Southern Africa median trend +9.34 W m-2/decade, 80 % of area significant; regional +8.60, p < 0.001
+--- SARAH-3 ---
+  cmsaf_sarah_3_SIS_SIS_africa_south: 0 cached, reading 523 file(s) with 5 worker(s) ...
+    25/523 read (0.0 min)
+    50/523 read (0.0 min)
+    75/523 read (0.0 min)
+    100/523 read (0.1 min)
+    125/523 read (0.1 min)
+    150/523 read (0.1 min)
+    175/523 read (0.1 min)
+    200/523 read (0.1 min)
+    225/523 read (0.1 min)
+    250/523 read (0.1 min)
+    275/523 read (0.1 min)
+    300/523 read (0.2 min)
+    325/523 read (0.2 min)
+    350/523 read (0.2 min)
+    375/523 read (0.2 min)
+    400/523 read (0.2 min)
+    425/523 read (0.2 min)
+    450/523 read (0.2 min)
+    475/523 read (0.2 min)
+    500/523 read (0.2 min)
+    523/523 read (0.2 min)
+  cmsaf_sarah_3_SIS_SIS_africa_south: 523 files (523 read now, 0 from the cache)
+  [WARN] SARAH-3 Jan: cells missing in 1983 (18%); those cells are left out of the trends
+  [WARN] SARAH-3 Feb: cells missing in 1985 (57%); those cells are left out of the trends
+  [WARN] SARAH-3 Nov: cells missing in 1988 (8%); those cells are left out of the trends
+  1983-2024: October Southern Africa median trend +4.17 W m-2/decade, 54 % of area significant; regional +4.14, p < 0.001
+--- CERES ---
+  regional +3.29, p = 0.115
+Saved: /hn01-home/jesu4127/southern_african_warming/results/sw_down/sw_down_trends_southern_africa.csv, sw_down_october_series.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/sw_down/sw_down_trends_southern_africa.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/sw_down/sw_down_trends_southern_africa.csv, sw_down_october_series.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/sw_down/sw_down_trends_southern_africa.png
+
+============================================
+Finished: Mon  2 Nov 17:26:18 UTC 2026
+============================================

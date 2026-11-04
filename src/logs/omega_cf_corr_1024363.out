@@ -1,0 +1,52 @@
+============================================
+OMEGA_CF_CORR job
+Job ID: 1024363
+Node: ouce-cn50
+Started: Tue  3 Nov 14:17:50 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_omega_sfc: 46 files (0 read now, 46 from the cache)
+--- ERA5 ---
+  era5_w_omega_sfc_300_m10: 47 files (0 read now, 47 from the cache)
+  era5_cc_omega_sfc_m10: 47 files (0 read now, 47 from the cache)
+  omega300, 10-15E: 54 % of the section significant
+  omega300, 15-20E: 61 % of the section significant
+  omega300, 20-25E: 61 % of the section significant
+  omega300, 25-30E: 67 % of the section significant
+  omega300, 30-35E: 77 % of the section significant
+  omega300, 35-40E: 40 % of the section significant
+--- MERRA-2 ---
+  merra2_instM_3d_asm_Np_OMEGA_omega_sfc_300: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_3d_rad_Np_CLOUD_omega_sfc: 46 files (0 read now, 46 from the cache)
+  omega300, 10-15E: 57 % of the section significant
+  omega300, 15-20E: 61 % of the section significant
+  omega300, 20-25E: 60 % of the section significant
+  omega300, 25-30E: 67 % of the section significant
+  omega300, 30-35E: 50 % of the section significant
+  omega300, 35-40E: 23 % of the section significant
+--- JRA-3Q ---
+  jra3q_vvel-pres-an-ll125_omega_sfc_300: 47 files (0 read now, 47 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 47 files (0 read now, 47 from the cache)
+  omega300, 10-15E: 68 % of the section significant
+  omega300, 15-20E: 82 % of the section significant
+  omega300, 20-25E: 87 % of the section significant
+  omega300, 25-30E: 79 % of the section significant
+  omega300, 30-35E: 67 % of the section significant
+  omega300, 35-40E: 52 % of the section significant
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf/omega300_cf_ERA5.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf/omega300_cf_MERRA2.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf/omega300_cf_JRA3Q.png
+
+Python version:
+Python 3.12.3
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf/omega300_cf_ERA5.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf/omega300_cf_MERRA2.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_cf/omega300_cf_JRA3Q.png
+
+============================================
+Finished: Tue  3 Nov 14:18:25 UTC 2026
+============================================

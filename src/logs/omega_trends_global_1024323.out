@@ -1,0 +1,25 @@
+============================================
+CHIRTS overlay job
+Job ID: 1024323
+Node: ouce-cn50
+Started: Tue  3 Nov 13:28:40 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0100hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0150hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0200hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0250hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0300hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0400hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0500hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0600hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0700hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0850hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_0925hPa.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/omega_global/omega_global_1000hPa.png
+
+Python version:
+Python 3.12.3
+
+Starting analysis...
+============================================

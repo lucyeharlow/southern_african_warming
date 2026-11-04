@@ -1,0 +1,20 @@
+============================================
+CHIRTS overlay job
+Job ID: 1023636
+Node: ouce-cn50
+Started: Mon  2 Nov 17:31:50 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature/t2m_trends_southern_africa.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature/t2m_trends_southern_africa.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature/t2m_trends_southern_africa.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature/t2m_trends_southern_africa.png
+
+============================================
+Finished: Mon  2 Nov 17:32:05 UTC 2026
+============================================

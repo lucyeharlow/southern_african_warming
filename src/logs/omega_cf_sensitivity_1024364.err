@@ -1,0 +1,5 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/omega_cf_sensitivity.py", line 29, in <module>
+    import omega_cf_correlation as oc
+ModuleNotFoundError: No module named 'omega_cf_correlation'
