@@ -1,0 +1,8 @@
+variable,units,land_only,box_high,box_low,box_diff,pct_area_sig_high,pct_area_sig_low,pct_area_sig_diff
+chi_map,10^6 m^2 s-1,False,-0.2715,0.739,-1.01,0,0,0
+omega,Pa s-1,False,0.002472,0.0004541,0.002018,0,0,0
+cloud,%,False,-1.889,1.285,-3.174,0,0,0
+t2m,K,False,0.6185,-0.6308,1.249,0,8.287,36.99
+swdn,W m-2,False,4.347,-4.337,8.684,0,0,0
+res,W m-2,True,0.9076,-0.8166,1.724,0,0,0
+lh,W m-2,True,-3.566,3.37,-6.936,0,0,0

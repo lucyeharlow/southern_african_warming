@@ -1,0 +1,298 @@
+GEBA check, October
+metadata: /soge-home/users/jesu4127/data/geba/GEBA_2026-09-03_15-37-10_metadata.csv (303 rows)
+monthly:  /soge-home/users/jesu4127/data/geba/GEBA_2026-09-03_15-37-10_monthly_data.csv (47712 rows)
+
+metadata columns:
+  tskey                        int64    e.g. 8, 11, 12, 22
+  ebcode                       str      e.g. GLOBAL, DIFFUS, DIRECT, RADBAL
+  ebkey                        int64    e.g. 1, 3, 2, 9
+  sgkey                        int64    e.g. 46, 305, 50, 51
+  sgxlon                       float64  e.g. 34.13333, 359.83333, 38.75, 7.98333
+  sgylat                       float64  e.g. 12.73333, 5.6, 9.03333, 16.96667
+  sgelevation                  int64    e.g. 445, 68, 2408, 505
+  sgname                       str      e.g. Abu Naama, Accra, Addis Abeba, Agadez
+  affiliation                  str      e.g. Sudan - previously Sudan, Ghana, Ethiopia, Niger
+  until                        str      e.g. 2011, 1997, 1984, 1980
+  sgcomment                    str      e.g. World Radiation Data Center, Voeikov Main Geophysical Obs., St. Petersburg; Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geograph. Inst., ETH Zurich; Weather Bureau South Africa (1955), Quarterly Rad. Bulletin, Dep. of Transport., World Radiation Data Center, Solar radiation and radiation balance data, Voeikov Main Geophysical Observatory, St. Petersburg. Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geographisches Institut der ETH Zurich., World Radiation Data Center, Voeikov Main Geophysical Observatory, St. Petersburg. Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geograph. Inst., ETH Zurich. Ibrahim, S. M. A. (1985), Sol. Energy, 35, 185-188., WRDC online archive accessed Sept. 2020. World Radiation Data Centre, Solar radiation and radiation balance data, Voeikov Main Geophysical Observatory, St. Petersburg
+
+monthly columns:
+  tskey                        int64    e.g. 8, 11, 12, 22
+  year                         int64    e.g. 1957, 1958, 1959, 1960
+  month                        int64    e.g. 1, 2, 3, 4
+  converted_flux_avg           float64  e.g. 217.0, 230.0, 242.0, 222.0
+  computed_flag_avg            float64  e.g. 8.0, 1.0, 2.0
+
+energy balance codes (ebcode), number of series:
+  GLOBAL            253  1
+  DIFFUS             32  3
+  DIRECT             11  2
+  LWINCO              4  6
+  RADBAL              2  9
+  ALBEDO              1  4
+
+Selected: GLOBAL, 10-40E, south of 3S, > 15 Oct values after 1980: 7 series
+
+  tskey 269:
+    tskey                      269
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      68
+    sgxlon                     34.85
+    sgylat                     -19.83333
+    sgelevation                17
+    sgname                     Beira
+    affiliation                Mozambique
+    until                      nan
+    sgcomment                  World Radiation Data Center, Voeikov Main Geophysical Obs., St. Petersburg; Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geograph. Inst., ETH Zurich; Weather Bureau South Africa (1955), Quarterly Rad. Bulletin, Dep. of Transport.
+
+  tskey 457:
+    tskey                      457
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      83
+    sgxlon                     28.61667
+    sgylat                     -20.15
+    sgelevation                1344
+    sgname                     Bulawayo-Goetz-Obs.
+    affiliation                Zimbabwe - previously Southern Rhodesia
+    until                      1980
+    sgcomment                  World Radiation Data Center, Voeikov Main Geophysical Obs., St. Petersburg; Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geograph. Inst., ETH Zurich; Weather Bureau South Africa (1955), Quarterly Rad. Bulletin, Dep. of Transport.
+
+  tskey 647:
+    tskey                      647
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      90
+    sgxlon                     33.0
+    sgylat                     -24.53333
+    sgelevation                33
+    sgname                     Chokwe
+    affiliation                Mozambique
+    until                      nan
+    sgcomment                  World Radiation Data Center, Solar radiation and radiation balance data, Voeikov Main Geophysical Observatory, St. Petersburg. Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geographisches Institut der ETH Zurich.
+
+  tskey 1354:
+    tskey                      1354
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      118
+    sgxlon                     31.01667
+    sgylat                     -17.83333
+    sgelevation                1472
+    sgname                     Harare / Belvedere
+    affiliation                Zimbabwe - previously Southern Rhodesia
+    until                      1980
+    sgcomment                  World Radiation Data Center, Voeikov Main Geophysical Observatory, St. Petersburg. Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geograph. Institut der ETH Zurich. Lewis, G. (1983), Sol. Energy, 31, 609-612.
+
+  tskey 1992:
+    tskey                      1992
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      157
+    sgxlon                     32.6
+    sgylat                     -25.96667
+    sgelevation                70
+    sgname                     Maputo
+    affiliation                Mozambique
+    until                      nan
+    sgcomment                  World Radiation Data Center, Voeikov Main Geophysical Obs., St. Petersburg; Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geograph. Inst., ETH Zurich; Weather Bureau South Africa (1955), Quarterly Rad. Bulletin, Dep. of Transport.
+
+  tskey 2248:
+    tskey                      2248
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      177
+    sgxlon                     39.28333
+    sgylat                     -15.1
+    sgelevation                441
+    sgname                     Nampula
+    affiliation                Mozambique
+    until                      nan
+    sgcomment                  World Radiation Data Center, Solar radiation and radiation balance data, Voeikov Main Geophysical Observatory, St. Petersburg. Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geographisches Institut der ETH Zurich.
+
+  tskey 5265:
+    tskey                      5265
+    ebcode                     GLOBAL
+    ebkey                      1
+    sgkey                      230
+    sgxlon                     38.56667
+    sgylat                     -3.4
+    sgelevation                560
+    sgname                     Voi
+    affiliation                Kenya
+    until                      nan
+    sgcomment                  World Radiation Data Center, Solar radiation and radiation balance data, Voeikov Main Geophysical Observatory, St. Petersburg. Haefliger, M. (1989), Globalstrahlungsdaten in Afrika, Geographisches Institut der ETH Zurich.
+
+Series at the same place (within 5 km) or with the same name (possible duplicates):
+  none
+
+October values used (converted_flux_avg); flag-like columns: computed_flag_avg; other flux columns: none
+
+  269 Beira (-19.83, 34.85): 16 years 1982-2007; missing [1986, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006]
+    converted_flux_avg: min 224.0, median 258.0, max 285.0 W m-2; rows without a value: 6
+    top of atmosphere Oct mean 440 W m-2; clearness index K 0.51-0.65  (plausible)
+    computed_flag_avg: 8.0 x16
+
+  457 Bulawayo-Goetz-Obs. (-20.15, 28.62): 25 years 1981-2005; missing none
+    converted_flux_avg: min 232.0, median 264.0, max 297.0 W m-2; rows without a value: 0
+    top of atmosphere Oct mean 440 W m-2; clearness index K 0.53-0.68  (plausible)
+    computed_flag_avg: 8.0 x25
+
+  647 Chokwe (-24.53, 33.00): 17 years 1981-1998; missing [1997]
+    converted_flux_avg: min 185.0, median 238.0, max 263.0 W m-2; rows without a value: 0
+    top of atmosphere Oct mean 435 W m-2; clearness index K 0.43-0.60  (plausible)
+    computed_flag_avg: 8.0 x17
+
+  1354 Harare / Belvedere (-17.83, 31.02): 24 years 1981-2005; missing [1989]
+    converted_flux_avg: min 234.0, median 259.5, max 280.0 W m-2; rows without a value: 1
+    top of atmosphere Oct mean 441 W m-2; clearness index K 0.53-0.63  (plausible)
+    computed_flag_avg: 8.0 x24
+
+  1992 Maputo (-25.97, 32.60): 30 years 1981-2010; missing none
+    converted_flux_avg: min 183.0, median 231.5, max 286.0 W m-2; rows without a value: 1
+    top of atmosphere Oct mean 433 W m-2; clearness index K 0.42-0.66  (plausible)
+    computed_flag_avg: 8.0 x30
+
+  2248 Nampula (-15.10, 39.28): 17 years 1981-2002; missing [1984, 1996, 1997, 1998, 1999]
+    converted_flux_avg: min 256.0, median 283.0, max 316.0 W m-2; rows without a value: 8
+    top of atmosphere Oct mean 442 W m-2; clearness index K 0.58-0.71  (plausible)
+    computed_flag_avg: 8.0 x17
+
+  5265 Voi (-3.40, 38.57): 25 years 1981-2007; missing [2004, 2005]
+    converted_flux_avg: min 217.0, median 255.0, max 284.0 W m-2; rows without a value: 0
+    top of atmosphere Oct mean 436 W m-2; clearness index K 0.50-0.65  (plausible)
+    computed_flag_avg: 8.0 x25
+
+==========================================================================================
+GRIDDED DATASETS: the variable each one is read from
+
+--- ERA5: ssrd
+  1 file(s); inspected: /soge-home/users/jesu4127/scratch/era5/global_surface_solar_radiation_downwards.nc
+  dims: {'valid_time': 564, 'latitude': 721, 'longitude': 1440}
+    GRIB_paramId: 169
+    GRIB_dataType: fc
+    GRIB_numberOfPoints: 1038240
+    GRIB_typeOfLevel: surface
+    GRIB_stepUnits: 1
+    GRIB_stepType: avgad
+    GRIB_gridType: regular_ll
+    GRIB_uvRelativeToGrid: 0
+    GRIB_NV: 0
+    GRIB_Nx: 1440
+    GRIB_Ny: 721
+    GRIB_cfName: surface_downwelling_shortwave_flux_in_air
+    GRIB_cfVarName: ssrd
+    GRIB_gridDefinitionDescription: Latitude/Longitude Grid
+    GRIB_iDirectionIncrementInDegrees: 0.25
+    GRIB_iScansNegatively: 0
+    GRIB_jDirectionIncrementInDegrees: 0.25
+    GRIB_jPointsAreConsecutive: 0
+    GRIB_jScansPositively: 0
+    GRIB_latitudeOfFirstGridPointInDegrees: 90.0
+    GRIB_latitudeOfLastGridPointInDegrees: -90.0
+    GRIB_longitudeOfFirstGridPointInDegrees: -180.0
+    GRIB_longitudeOfLastGridPointInDegrees: 179.75
+    GRIB_missingValue: 3.4028234663852886e+38
+    GRIB_name: Surface short-wave (solar) radiation downwards
+    GRIB_shortName: ssrd
+    GRIB_totalNumber: 0
+    GRIB_units: J m**-2
+    long_name: Surface short-wave (solar) radiation downwards
+    units: J m**-2
+    standard_name: surface_downwelling_shortwave_flux_in_air
+    GRIB_surface: 0.0
+  names describe surface downwelling shortwave: yes
+  units in the file: J m**-2; conversion here: J m-2 (monthly mean of daily accumulations) / 86400
+  global attributes:
+    institution: European Centre for Medium-Range Weather Forecasts
+    history: 2026-08-14T10:51 GRIB to CDM+CF via cfgrib-0.9.15.1/ecCodes-2.48.0 with {"source": "tmp2evnpmig/data.grib", "filter_by_keys": {"stream": ["moda"], "stepType": ["avgad"]}, "encode_cf": ["parameter", "time", "geography", "vertical"]}
+    Conventions: CF-1.7
+  value checked: 1979-10-01
+  converted October value at each station (nearest cell with data):
+    269 Beira                      254.3 W m-2 (cell -19.75, 34.75, 14 km), K = 0.58
+    457 Bulawayo-Goetz-Obs.        266.6 W m-2 (cell -20.25, 28.50, 16 km), K = 0.61
+    647 Chokwe                     211.6 W m-2 (cell -24.50, 33.00, 4 km), K = 0.49
+    1354 Harare / Belvedere         283.9 W m-2 (cell -17.75, 31.00, 9 km), K = 0.64
+    1992 Maputo                     205.2 W m-2 (cell -26.00, 32.50, 11 km), K = 0.47
+    2248 Nampula                    292.1 W m-2 (cell -15.00, 39.25, 12 km), K = 0.66
+    5265 Voi                        241.6 W m-2 (cell -3.50, 38.50, 13 km), K = 0.55
+
+--- MERRA-2: SWGDN
+  558 file(s); inspected: /soge-home/users/jesu4127/scratch/merra_2/MERRA2_300.tavgM_2d_rad_Nx.200310.nc4
+  dims: {'time': 1, 'lat': 361, 'lon': 576}
+    long_name: surface_incoming_shortwave_flux
+    units: W m-2
+    fmissing_value: 999999986991104.0
+    vmax: 999999986991104.0
+    vmin: -999999986991104.0
+    valid_range: [-1.e+15  1.e+15]
+  names describe surface downwelling shortwave: yes
+  units in the file: W m-2; conversion here: none (W m-2)
+  global attributes:
+    Conventions: CF-1
+  value checked: 2003-10-01
+  converted October value at each station (nearest cell with data):
+    269 Beira                      264.9 W m-2 (cell -20.00, 35.00, 24 km), K = 0.60
+    457 Bulawayo-Goetz-Obs.        293.5 W m-2 (cell -20.00, 28.75, 22 km), K = 0.67
+    647 Chokwe                     260.5 W m-2 (cell -24.50, 33.12, 13 km), K = 0.60
+    1354 Harare / Belvedere         301.8 W m-2 (cell -18.00, 31.25, 31 km), K = 0.68
+    1992 Maputo                     266.4 W m-2 (cell -26.00, 32.50, 11 km), K = 0.62
+    2248 Nampula                    308.7 W m-2 (cell -15.00, 39.38, 15 km), K = 0.70
+    5265 Voi                        301.3 W m-2 (cell -3.50, 38.75, 23 km), K = 0.69
+
+--- CLARA-A3: SIS
+  563 file(s); inspected: /soge-home/users/jesu4127/data/clara_a3/clara_a3_thematic_surface_radiation_budget_m10_SISmm20021001000000319AVPOS01GL.nc
+  dims: {'time': 1, 'lat': 720, 'lon': 1440}
+    standard_name: surface_downwelling_shortwave_flux
+    long_name: Surface Downwelling Shortwave Radiation
+    units: W m-2
+    cell_methods: area: time: mean
+  names describe surface downwelling shortwave: yes
+  units in the file: W m-2; conversion here: none (W m-2)
+  global attributes:
+    title: CM SAF Cloud, Albedo and Radiation dataset, AVHRR-based edition 3 (CLARA-A3)
+    product_version: 3.0
+    source: AVHRR global area coverage (GAC)
+    institution: EUMETSAT/CMSAF
+    summary: This file contains AVHRR-based Thematic Climate Data Records (TCDR) produced by the Satellite Application Facility on Climate Monitoring (CM SAF).
+    references: https://doi.org/10.5676/EUM_SAF_CM/CLARA_AVHRR/V003
+    Conventions: CF-1.7,ACDD-1.3
+    id: DOI:10.5676/EUM_SAF_CM/CLARA_AVHRR/V003
+  value checked: 2002-10-01
+  converted October value at each station (nearest cell with data):
+    269 Beira                      268.0 W m-2 (cell -19.88, 34.88, 5 km), K = 0.61
+    457 Bulawayo-Goetz-Obs.        276.2 W m-2 (cell -20.12, 28.62, 3 km), K = 0.63
+    647 Chokwe                     238.0 W m-2 (cell -24.62, 32.88, 16 km), K = 0.55
+    1354 Harare / Belvedere         290.6 W m-2 (cell -17.88, 31.12, 12 km), K = 0.66
+    1992 Maputo                     234.5 W m-2 (cell -25.88, 32.62, 10 km), K = 0.54
+    2248 Nampula                    286.3 W m-2 (cell -15.12, 39.38, 10 km), K = 0.65
+    5265 Voi                        244.8 W m-2 (cell -3.38, 38.62, 7 km), K = 0.56
+
+--- SARAH-3: SIS
+  523 file(s); inspected: /soge-home/users/jesu4127/data/sarah_3/SISmm200410010000004231000101MA.nc
+  dims: {'time': 1, 'lat': 2600, 'lon': 2600}
+    standard_name: surface_downwelling_shortwave_flux_in_air
+    long_name: Monthly mean Surface Downwelling Shortwave Radiation
+    units: W m-2
+    cell_methods: time: mean
+    ancillary_variables: SISC,SIS_dms
+  names describe surface downwelling shortwave: yes
+  units in the file: W m-2; conversion here: none (W m-2)
+  global attributes:
+    title: CM SAF Surface Solar Radiation Climate Data Record using Heliosat, Edition 3 (SARAH-3)
+    product_version: 3.0
+    institution: EUMETSAT/CMSAF
+    summary: This file contains data from the CM SAF Surface Solar Radiation Climate Data Record using Heliosat, Edition 3
+    references: https://doi.org/10.5676/EUM_SAF_CM/SARAH/V003
+    Conventions: CF-1.7,ACDD-1.3
+    id: DOI:10.5676/EUM_SAF_CM/SARAH/V003
+    keywords: EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > INCOMING SOLAR RADIATION
+  value checked: 2004-10-01
+  converted October value at each station (nearest cell with data):
+    269 Beira                      240.0 W m-2 (cell -19.83, 34.83, 2 km), K = 0.55
+    457 Bulawayo-Goetz-Obs.        282.0 W m-2 (cell -20.17, 28.62, 2 km), K = 0.64
+    647 Chokwe                     233.0 W m-2 (cell -24.52, 32.97, 2 km), K = 0.54
+    1354 Harare / Belvedere         263.0 W m-2 (cell -17.83, 31.02, 1 km), K = 0.60
+    1992 Maputo                     235.0 W m-2 (cell -25.98, 32.62, 2 km), K = 0.54
+    2248 Nampula                    271.0 W m-2 (cell -15.12, 39.28, 3 km), K = 0.61
+    5265 Voi                        250.0 W m-2 (cell -3.38, 38.58, 3 km), K = 0.57
