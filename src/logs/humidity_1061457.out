@@ -1,0 +1,155 @@
+============================================
+CHIRTS overlay job
+Job ID: 1061457
+Node: ouce-cn36
+Started: Mon  9 Nov 12:54:48 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_africa_south: 558 files (0 read now, 558 from the cache)
+--- ERA5, 850 hPa ---
+  era5_r_africa_south_850: 47 files (0 read now, 47 from the cache)
+  era5_q_africa_south_850: 47 files (0 read now, 47 from the cache)
+  rh850: October median trend -2.12 % per decade, 92 % of area significant; box mean -2.24, p < 0.001
+  q850: October median trend -0.177 g kg^{-1} per decade, 58 % of area significant; box mean -0.209, p < 0.001
+--- MERRA-2, 850 hPa ---
+  merra2_instM_3d_asm_Np_RH_africa_south_850: 558 files (0 read now, 558 from the cache)
+  merra2_instM_3d_asm_Np_QV_africa_south_850: 558 files (0 read now, 558 from the cache)
+  rh850: October median trend -0.802 % per decade, 16 % of area significant; box mean -0.811, p = 0.015
+  q850: October median trend -0.0157 g kg^{-1} per decade, 0 % of area significant; box mean -0.0129, p = 0.788
+--- JRA-3Q, 850 hPa ---
+  jra3q_rh-pres-an-ll125_africa_south_850: 565 files (0 read now, 565 from the cache)
+  jra3q_spfh-pres-an-ll125_africa_south_850: 565 files (0 read now, 565 from the cache)
+  rh850: October median trend -1.18 % per decade, 19 % of area significant; box mean -1.02, p = 0.006
+  q850: October median trend -0.0485 g kg^{-1} per decade, 3 % of area significant; box mean -0.0235, p = 0.644
+--- ERA5, 200 hPa ---
+  era5_r_africa_south_200: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.1 min)
+  era5_r_africa_south_200: 47 files (47 read now, 0 from the cache)
+  era5_q_africa_south_200: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.1 min)
+  era5_q_africa_south_200: 47 files (47 read now, 0 from the cache)
+  rh200: October median trend -1.19 % per decade, 38 % of area significant; box mean -1.4, p = 0.006
+  q200: October median trend -0.00347 mg kg^{-1} per decade, 1 % of area significant; box mean -0.127, p = 0.660
+--- MERRA-2, 200 hPa ---
+  merra2_instM_3d_asm_Np_RH_africa_south_200: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.0 min)
+    50/558 read (0.0 min)
+    75/558 read (0.0 min)
+    100/558 read (0.0 min)
+    125/558 read (0.1 min)
+    150/558 read (0.1 min)
+    175/558 read (0.1 min)
+    200/558 read (0.1 min)
+    225/558 read (0.1 min)
+    250/558 read (0.1 min)
+    275/558 read (0.1 min)
+    300/558 read (0.1 min)
+    325/558 read (0.1 min)
+    350/558 read (0.1 min)
+    375/558 read (0.2 min)
+    400/558 read (0.2 min)
+    425/558 read (0.2 min)
+    450/558 read (0.2 min)
+    475/558 read (0.2 min)
+    500/558 read (0.2 min)
+    525/558 read (0.2 min)
+    550/558 read (0.2 min)
+    558/558 read (0.2 min)
+  merra2_instM_3d_asm_Np_RH_africa_south_200: 558 files (558 read now, 0 from the cache)
+  merra2_instM_3d_asm_Np_QV_africa_south_200: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.0 min)
+    50/558 read (0.0 min)
+    75/558 read (0.0 min)
+    100/558 read (0.0 min)
+    125/558 read (0.0 min)
+    150/558 read (0.1 min)
+    175/558 read (0.1 min)
+    200/558 read (0.1 min)
+    225/558 read (0.1 min)
+    250/558 read (0.1 min)
+    275/558 read (0.1 min)
+    300/558 read (0.1 min)
+    325/558 read (0.1 min)
+    350/558 read (0.1 min)
+    375/558 read (0.1 min)
+    400/558 read (0.2 min)
+    425/558 read (0.2 min)
+    450/558 read (0.2 min)
+    475/558 read (0.2 min)
+    500/558 read (0.2 min)
+    525/558 read (0.2 min)
+    550/558 read (0.2 min)
+    558/558 read (0.2 min)
+  merra2_instM_3d_asm_Np_QV_africa_south_200: 558 files (558 read now, 0 from the cache)
+  rh200: October median trend -1.72 % per decade, 50 % of area significant; box mean -1.62, p = 0.001
+  q200: October median trend +0.285 mg kg^{-1} per decade, 17 % of area significant; box mean +0.249, p = 0.510
+--- JRA-3Q, 200 hPa ---
+  jra3q_rh-pres-an-ll125_africa_south_200: 0 cached, reading 565 file(s) with 5 worker(s) ...
+    25/565 read (0.7 min)
+    50/565 read (1.4 min)
+    75/565 read (2.1 min)
+    100/565 read (2.8 min)
+    125/565 read (3.5 min)
+    150/565 read (4.1 min)
+    175/565 read (4.8 min)
+    200/565 read (5.5 min)
+    225/565 read (6.1 min)
+    250/565 read (6.8 min)
+    275/565 read (7.4 min)
+    300/565 read (8.1 min)
+    325/565 read (8.8 min)
+    350/565 read (9.4 min)
+    375/565 read (10.0 min)
+    400/565 read (10.7 min)
+    425/565 read (11.3 min)
+    450/565 read (12.0 min)
+    475/565 read (12.6 min)
+    500/565 read (13.3 min)
+    525/565 read (13.9 min)
+    550/565 read (14.5 min)
+    565/565 read (14.9 min)
+  jra3q_rh-pres-an-ll125_africa_south_200: 565 files (565 read now, 0 from the cache)
+  jra3q_spfh-pres-an-ll125_africa_south_200: 0 cached, reading 565 file(s) with 5 worker(s) ...
+    25/565 read (0.7 min)
+    50/565 read (1.4 min)
+    75/565 read (2.1 min)
+    100/565 read (2.7 min)
+    125/565 read (3.4 min)
+    150/565 read (4.1 min)
+    175/565 read (4.7 min)
+    200/565 read (5.4 min)
+    225/565 read (6.1 min)
+    250/565 read (6.8 min)
+    275/565 read (7.3 min)
+    300/565 read (7.9 min)
+    325/565 read (8.4 min)
+    350/565 read (8.9 min)
+    375/565 read (9.4 min)
+    400/565 read (9.9 min)
+    425/565 read (10.4 min)
+    450/565 read (11.0 min)
+    475/565 read (11.5 min)
+    500/565 read (12.0 min)
+    525/565 read (12.5 min)
+    550/565 read (13.1 min)
+    565/565 read (13.3 min)
+  jra3q_spfh-pres-an-ll125_africa_south_200: 565 files (565 read now, 0 from the cache)
+  rh200: October median trend +0.373 % per decade, 36 % of area significant; box mean -0.19, p = 0.686
+  q200: October median trend +0.976 mg kg^{-1} per decade, 56 % of area significant; box mean +0.724, p = 0.013
+Saved: /hn01-home/jesu4127/southern_african_warming/results/humidity/humidity_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/humidity/humidity_boxplots.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/humidity/humidity_trends_october.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/humidity/humidity_trends.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/humidity/humidity_boxplots.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/humidity/humidity_trends_october.png
+
+============================================
+Finished: Mon  9 Nov 13:24:34 UTC 2026
+============================================

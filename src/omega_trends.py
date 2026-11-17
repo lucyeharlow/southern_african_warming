@@ -10,7 +10,7 @@ FIGURES  results/omega/omega_trends_<level>hPa.png, one per level in LEVELS
          limit): strengthening / weakening subsidence or ascent from the mean sign and the trend
          sign, or new subsidence / new ascent after a persistent sign change (config.MIN_PERSIST
          years); see stats.regimes.
-  White dots: significant (FDR q = 0.10 over the cells of each map, land and ocean).
+  Black dots: significant (FDR q = 0.10 over the cells of each map, land and ocean).
 TABLE    results/omega/omega_trends_summary.csv: per level and dataset, % of area significant
          and, of the significant area, % in each regime; % of the Congo box with significant
          weakening ascent; % south of 10S with significant positive trends; ocean statistics
@@ -186,12 +186,12 @@ def plot():
                 k += 1
         ps.colourbar(fig, at(left + 0.5, cb_top, W - left - right - 1.0, 0.08), norm, "RdBu_r",
                      f"Trend (10$^{{{e}}}$ Pa s$^{{-1}}$ decade$^{{-1}}$); dots: significant (FDR q = "
-                     f"{config.ALPHA_FDR:.2f})\nRegime colours reach full strength at the colour-bar limit")
+                     f"{config.ALPHA_FDR:.2f})\nRegime colour saturation corresponds to trend magnitude")
         fig.legend(handles=ps.regime_handles(), loc="upper center", ncol=3, frameon=False,
                    handlelength=1.2, columnspacing=1.0,
                    bbox_to_anchor=(0.5, 1 - (cb_top + 0.7) / H))
         ps.text(fig, W / 2, 0.06, f"{calendar.month_name[MONTH]} vertical velocity trends at "
-                f"{lev:.0f} hPa (omega > 0: subsidence)", ha="center", va="top",
+                f"{lev:.0f} hPa", ha="center", va="top",
                 fontsize=fs["suptitle"], fontweight="bold")
         ps.save(fig, config.RESULTS / OUT / f"omega_trends_{lev:04.0f}hPa.png")
 

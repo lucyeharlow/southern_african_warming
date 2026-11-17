@@ -1,0 +1,29 @@
+============================================
+CHIRTS overlay job
+Job ID: 1061557
+Node: ouce-cn36
+Started: Mon  9 Nov 18:02:16 UTC 2026
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/geba/geba_station_cells.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/geba/geba_station_sw_october.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+GEBA: 7 stations (GLOBAL, > 15 Oct values after 1980)
+--- ERA5 ---
+--- MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_SWGDN_africa_10_40: 558 files (0 read now, 558 from the cache)
+--- JRA-3Q ---
+  jra3q_dswrf1have-sfc-fc-ll125_tropics: 565 files (0 read now, 565 from the cache)
+--- CLARA-A3 ---
+  cmsaf_SIS_SIS_africa_10_40: 563 files (0 read now, 563 from the cache)
+--- SARAH-3 ---
+  cmsaf_sarah_3_SIS_SIS_africa_10_40: 523 files (0 read now, 523 from the cache)
+saved /hn01-home/jesu4127/southern_african_warming/data/geba/geba_station_sw_october.csv
+
+============================================
+Finished: Mon  9 Nov 18:03:01 UTC 2026
+============================================

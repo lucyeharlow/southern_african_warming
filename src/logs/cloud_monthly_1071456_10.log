@@ -1,0 +1,97 @@
+Started Mon 16 Nov 15:30:53 UTC 2026 on ouce-cn55, month 10, /soge-home/users/jesu4127/micromamba/envs/myenv/bin/python
+--- ERA5, October ---
+  merra2_instM_3d_asm_Np_PS_global: 46 cached, reading 512 file(s) with 4 worker(s) ...
+    25/512 read (0.0 min)
+    50/512 read (0.0 min)
+    75/512 read (0.1 min)
+    100/512 read (0.1 min)
+    125/512 read (0.1 min)
+    150/512 read (0.1 min)
+    175/512 read (0.1 min)
+    200/512 read (0.1 min)
+    225/512 read (0.1 min)
+    250/512 read (0.1 min)
+    275/512 read (0.1 min)
+    300/512 read (0.2 min)
+    325/512 read (0.2 min)
+    350/512 read (0.2 min)
+    375/512 read (0.2 min)
+    400/512 read (0.2 min)
+    425/512 read (0.2 min)
+    450/512 read (0.2 min)
+    475/512 read (0.2 min)
+    500/512 read (0.2 min)
+    512/512 read (0.3 min)
+  merra2_instM_3d_asm_Np_PS_global: 558 files (512 read now, 46 from the cache)
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.6 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 3 % of the area significant
+  high: 2 % of the area significant
+  mid: 1 % of the area significant
+  low: 13 % of the area significant
+--- MERRA-2, October ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (46 read now, 0 from the cache)
+  total: 13 % of the area significant
+  high: 9 % of the area significant
+  mid: 5 % of the area significant
+  low: 23 % of the area significant
+--- JRA-3Q, October ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 9 % of the area significant
+  high: 9 % of the area significant
+  mid: 5 % of the area significant
+  low: 13 % of the area significant
+--- CLARA-A3, October ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  cmsaf_CFC_cfc_global: 46 files (46 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 46 files (46 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 46 files (46 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 46 files (46 read now, 0 from the cache)
+  total: 16 % of the area significant
+  high: 2 % of the area significant
+  mid: 7 % of the area significant
+  low: 5 % of the area significant
+Finished Mon 16 Nov 15:35:24 UTC 2026

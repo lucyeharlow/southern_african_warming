@@ -1,0 +1,864 @@
+Started Mon 16 Nov 15:39:52 UTC 2026 on ouce-cn55, month all, /soge-home/users/jesu4127/micromamba/envs/myenv/bin/python
+--- ERA5, January ---
+  merra2_instM_3d_asm_Np_PS_global: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 1 % of the area significant
+  mid: 1 % of the area significant
+  low: 7 % of the area significant
+--- MERRA-2, January ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 47 files (47 read now, 0 from the cache)
+  total: 15 % of the area significant
+  high: 1 % of the area significant
+  mid: 5 % of the area significant
+  low: 29 % of the area significant
+--- JRA-3Q, January ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 2 % of the area significant
+  mid: 1 % of the area significant
+  low: 7 % of the area significant
+--- CLARA-A3, January ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  [WARN] CLARA-A3 total: cells missing in 1995 (14%); those cells are left out of the trends
+  total: 9 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1995 (14%); those cells are left out of the trends
+  high: 0 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1995 (14%); those cells are left out of the trends
+  mid: 3 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1995 (14%); those cells are left out of the trends
+  low: 3 % of the area significant
+--- ERA5, February ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 0 % of the area significant
+  mid: 0 % of the area significant
+  low: 6 % of the area significant
+--- MERRA-2, February ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 47 files (47 read now, 0 from the cache)
+  total: 14 % of the area significant
+  high: 2 % of the area significant
+  mid: 6 % of the area significant
+  low: 26 % of the area significant
+--- JRA-3Q, February ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.4 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.4 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.2 min)
+    47/47 read (0.4 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 1 % of the area significant
+  mid: 5 % of the area significant
+  low: 7 % of the area significant
+--- CLARA-A3, February ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  total: 3 % of the area significant
+  high: 0 % of the area significant
+  mid: 1 % of the area significant
+  low: 1 % of the area significant
+--- ERA5, March ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 1 % of the area significant
+  mid: 1 % of the area significant
+  low: 8 % of the area significant
+--- MERRA-2, March ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 47 files (47 read now, 0 from the cache)
+  total: 17 % of the area significant
+  high: 3 % of the area significant
+  mid: 6 % of the area significant
+  low: 29 % of the area significant
+--- JRA-3Q, March ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 4 % of the area significant
+  high: 5 % of the area significant
+  mid: 6 % of the area significant
+  low: 12 % of the area significant
+--- CLARA-A3, March ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  [WARN] CLARA-A3 total: cells missing in 1999 (1%); those cells are left out of the trends
+  total: 11 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1999 (1%); those cells are left out of the trends
+  high: 1 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1999 (1%); those cells are left out of the trends
+  mid: 9 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1999 (1%); those cells are left out of the trends
+  low: 5 % of the area significant
+--- ERA5, April ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 2 % of the area significant
+  high: 1 % of the area significant
+  mid: 0 % of the area significant
+  low: 9 % of the area significant
+--- MERRA-2, April ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 47 files (47 read now, 0 from the cache)
+  total: 14 % of the area significant
+  high: 2 % of the area significant
+  mid: 2 % of the area significant
+  low: 28 % of the area significant
+--- JRA-3Q, April ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 4 % of the area significant
+  mid: 2 % of the area significant
+  low: 10 % of the area significant
+--- CLARA-A3, April ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  [WARN] CLARA-A3 total: cells missing in 1998 (5%); those cells are left out of the trends
+  total: 13 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1998 (5%); those cells are left out of the trends
+  high: 0 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1998 (5%); those cells are left out of the trends
+  mid: 5 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1998 (5%); those cells are left out of the trends
+  low: 2 % of the area significant
+--- ERA5, May ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 2 % of the area significant
+  high: 1 % of the area significant
+  mid: 1 % of the area significant
+  low: 10 % of the area significant
+--- MERRA-2, May ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 47 files (47 read now, 0 from the cache)
+  total: 11 % of the area significant
+  high: 2 % of the area significant
+  mid: 0 % of the area significant
+  low: 22 % of the area significant
+--- JRA-3Q, May ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 3 % of the area significant
+  high: 7 % of the area significant
+  mid: 5 % of the area significant
+  low: 9 % of the area significant
+--- CLARA-A3, May ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  [WARN] CLARA-A3 total: cells missing in 1998 (3%); those cells are left out of the trends
+  total: 14 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1998 (3%); those cells are left out of the trends
+  high: 1 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1998 (3%); those cells are left out of the trends
+  mid: 5 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1998 (3%); those cells are left out of the trends
+  low: 1 % of the area significant
+--- ERA5, June ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 4 % of the area significant
+  high: 1 % of the area significant
+  mid: 0 % of the area significant
+  low: 16 % of the area significant
+--- MERRA-2, June ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 47 files (47 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 47 files (47 read now, 0 from the cache)
+  total: 17 % of the area significant
+  high: 5 % of the area significant
+  mid: 4 % of the area significant
+  low: 27 % of the area significant
+--- JRA-3Q, June ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 9 % of the area significant
+  high: 13 % of the area significant
+  mid: 5 % of the area significant
+  low: 10 % of the area significant
+--- CLARA-A3, June ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  total: 10 % of the area significant
+  high: 2 % of the area significant
+  mid: 7 % of the area significant
+  low: 2 % of the area significant
+--- ERA5, July ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 6 % of the area significant
+  high: 1 % of the area significant
+  mid: 4 % of the area significant
+  low: 19 % of the area significant
+--- MERRA-2, July ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (46 read now, 0 from the cache)
+  total: 17 % of the area significant
+  high: 8 % of the area significant
+  mid: 6 % of the area significant
+  low: 26 % of the area significant
+--- JRA-3Q, July ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 9 % of the area significant
+  high: 14 % of the area significant
+  mid: 5 % of the area significant
+  low: 12 % of the area significant
+--- CLARA-A3, July ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  total: 15 % of the area significant
+  high: 1 % of the area significant
+  mid: 8 % of the area significant
+  low: 3 % of the area significant
+--- ERA5, August ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 7 % of the area significant
+  high: 1 % of the area significant
+  mid: 3 % of the area significant
+  low: 17 % of the area significant
+--- MERRA-2, August ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (46 read now, 0 from the cache)
+  total: 18 % of the area significant
+  high: 9 % of the area significant
+  mid: 6 % of the area significant
+  low: 32 % of the area significant
+--- JRA-3Q, August ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 8 % of the area significant
+  high: 13 % of the area significant
+  mid: 8 % of the area significant
+  low: 12 % of the area significant
+--- CLARA-A3, August ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 46 files (46 read now, 0 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  [WARN] CLARA-A3 total: cells missing in 1998 (4%), 2000 (5%); those cells are left out of the trends
+  total: 13 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1998 (4%), 2000 (5%); those cells are left out of the trends
+  high: 3 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1998 (4%), 2000 (5%); those cells are left out of the trends
+  mid: 9 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1998 (4%), 2000 (5%); those cells are left out of the trends
+  low: 2 % of the area significant
+--- ERA5, September ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 9 % of the area significant
+  high: 3 % of the area significant
+  mid: 3 % of the area significant
+  low: 19 % of the area significant
+--- MERRA-2, September ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (46 read now, 0 from the cache)
+  total: 18 % of the area significant
+  high: 12 % of the area significant
+  mid: 5 % of the area significant
+  low: 28 % of the area significant
+--- JRA-3Q, September ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 48 file(s) with 4 worker(s) ...
+    25/48 read (0.3 min)
+    48/48 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 48 files (48 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 48 file(s) with 4 worker(s) ...
+    25/48 read (0.3 min)
+    48/48 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 48 files (48 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 48 file(s) with 4 worker(s) ...
+    25/48 read (0.3 min)
+    48/48 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 48 files (48 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 48 file(s) with 4 worker(s) ...
+    25/48 read (0.3 min)
+    48/48 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 48 files (48 read now, 0 from the cache)
+  total: 10 % of the area significant
+  high: 11 % of the area significant
+  mid: 9 % of the area significant
+  low: 14 % of the area significant
+--- CLARA-A3, September ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  total: 15 % of the area significant
+  high: 2 % of the area significant
+  mid: 11 % of the area significant
+  low: 5 % of the area significant
+--- ERA5, October ---
+  era5_cloud_layers_max_global: 47 files (0 read now, 47 from the cache)
+  total: 3 % of the area significant
+  high: 2 % of the area significant
+  mid: 1 % of the area significant
+  low: 13 % of the area significant
+--- MERRA-2, October ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (0 read now, 46 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (0 read now, 46 from the cache)
+  total: 13 % of the area significant
+  high: 9 % of the area significant
+  mid: 5 % of the area significant
+  low: 23 % of the area significant
+--- JRA-3Q, October ---
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (0 read now, 47 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (0 read now, 47 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (0 read now, 47 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (0 read now, 47 from the cache)
+  total: 9 % of the area significant
+  high: 9 % of the area significant
+  mid: 5 % of the area significant
+  low: 13 % of the area significant
+--- CLARA-A3, October ---
+  cmsaf_CFC_cfc_global: 46 files (0 read now, 46 from the cache)
+  cmsaf_CFC_cfc_high_global: 46 files (0 read now, 46 from the cache)
+  cmsaf_CFC_cfc_middle_global: 46 files (0 read now, 46 from the cache)
+  cmsaf_CFC_cfc_low_global: 46 files (0 read now, 46 from the cache)
+  total: 16 % of the area significant
+  high: 2 % of the area significant
+  mid: 7 % of the area significant
+  low: 5 % of the area significant
+--- ERA5, November ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 0 % of the area significant
+  mid: 0 % of the area significant
+  low: 9 % of the area significant
+--- MERRA-2, November ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (46 read now, 0 from the cache)
+  total: 17 % of the area significant
+  high: 2 % of the area significant
+  mid: 1 % of the area significant
+  low: 29 % of the area significant
+--- JRA-3Q, November ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 4 % of the area significant
+  high: 3 % of the area significant
+  mid: 7 % of the area significant
+  low: 10 % of the area significant
+--- CLARA-A3, November ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  [WARN] CLARA-A3 total: cells missing in 1994 (5%), 2001 (8%); those cells are left out of the trends
+  total: 17 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1994 (5%), 2001 (8%); those cells are left out of the trends
+  high: 1 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1994 (5%), 2001 (8%); those cells are left out of the trends
+  mid: 9 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1994 (5%), 2001 (8%); those cells are left out of the trends
+  low: 3 % of the area significant
+--- ERA5, December ---
+  era5_cloud_layers_max_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  era5_cloud_layers_max_global: 47 files (47 read now, 0 from the cache)
+  total: 1 % of the area significant
+  high: 0 % of the area significant
+  mid: 2 % of the area significant
+  low: 7 % of the area significant
+--- MERRA-2, December ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDTOT_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDMID_global: 46 files (46 read now, 0 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 0 cached, reading 46 file(s) with 4 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_global: 46 files (46 read now, 0 from the cache)
+  total: 20 % of the area significant
+  high: 1 % of the area significant
+  mid: 1 % of the area significant
+  low: 30 % of the area significant
+--- JRA-3Q, December ---
+  jra3q_tcdc-tcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_tcdc-tcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.4 min)
+  jra3q_hcdc-hcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_mcdc-mcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.3 min)
+    47/47 read (0.5 min)
+  jra3q_lcdc-lcl-fc-ll125_global: 47 files (47 read now, 0 from the cache)
+  total: 2 % of the area significant
+  high: 2 % of the area significant
+  mid: 3 % of the area significant
+  low: 8 % of the area significant
+--- CLARA-A3, December ---
+  cmsaf_CFC_cfc_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_high_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_high_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_middle_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_middle_global: 47 files (47 read now, 0 from the cache)
+  cmsaf_CFC_cfc_low_global: 0 cached, reading 47 file(s) with 4 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.0 min)
+  cmsaf_CFC_cfc_low_global: 47 files (47 read now, 0 from the cache)
+  [WARN] CLARA-A3 total: cells missing in 1994 (12%), 2001 (10%); those cells are left out of the trends
+  total: 13 % of the area significant
+  [WARN] CLARA-A3 high: cells missing in 1994 (12%), 2001 (10%); those cells are left out of the trends
+  high: 2 % of the area significant
+  [WARN] CLARA-A3 mid: cells missing in 1994 (12%), 2001 (10%); those cells are left out of the trends
+  mid: 6 % of the area significant
+  [WARN] CLARA-A3 low: cells missing in 1994 (12%), 2001 (10%); those cells are left out of the trends
+  low: 6 % of the area significant
+Finished Mon 16 Nov 16:19:25 UTC 2026

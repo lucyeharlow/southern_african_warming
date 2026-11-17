@@ -57,10 +57,11 @@ SATURATION = "mixed"
 JRA3Q_T_SOURCE = "grib"
 CMAP = "BrBG"
 COL = {"q": "#1B9E77", "T": "#D95F02", "res": "#7F7F7F"}
-TERMS = [("total", "ln RH trend"), ("q", "q part"), ("T", "T part")]
+LNRH, LNQ, LNQS = r"$\ln\,\mathrm{RH}$", r"$\ln q$", r"$\ln q_s$"     # mathtext labels
+TERMS = [("total", LNRH + " trend"), ("q", "$q$ part"), ("T", "$T$ part")]
 LOG_SCALE = 100.0                 # 100: shown in 10^-2 ln units per decade; 1: ln units
-UNIT = ("10$^{-2}$ ln units decade$^{-1}$" if LOG_SCALE == 100 else
-        "ln units decade$^{-1}$")
+UNIT = (r"$10^{-2}\,\ln$ units decade$^{-1}$" if LOG_SCALE == 100 else
+        r"$\ln$ units decade$^{-1}$")
 UNIT_TXT = "10^-2 ln units per decade" if LOG_SCALE == 100 else "ln units per decade"
 
 
@@ -211,23 +212,23 @@ def plot():
 
         # main figure
         bar_top, bar_h = 0.95, 1.3
-        map_top = bar_top + bar_h + 0.6
+        map_top = bar_top + bar_h + 0.75
         tops = [map_top + i * (mh + 0.12) for i in range(3)]
         cb_top = tops[-1] + mh + 0.32
-        H = cb_top + 0.6
+        H = cb_top + 0.75
         fig, at = ps.figure("full", H)
         bars(fig, at, x0s, bar_top, bar_h, pw, res, ["q", "T"],
-             f"Trend of ln RH and its parts\n({UNIT})", lim_of(res, ["total", "q", "T"]))
+             f"Trend of {LNRH} and its parts\n({UNIT})", lim_of(res, ["total", "q", "T"]))
         fig.legend(handles=[Line2D([], [], marker="D", color="black", ls="", markersize=3,
-                                   label="Trend of ln RH"),
-                            Patch(facecolor=COL["q"], label="q part: trend of ln q"),
-                            Patch(facecolor=COL["T"], label="T part: minus trend of ln q$_s$(T)")],
+                                   label=f"Trend of {LNRH}"),
+                            Patch(facecolor=COL["q"], label=f"$q$ part: trend of {LNQ}"),
+                            Patch(facecolor=COL["T"],
+                                  label=r"$T$ part: $-$trend of $\ln q_s(T)$")],
                    loc="upper center", ncol=3, frameon=False, handlelength=1.2, columnspacing=1.0,
                    bbox_to_anchor=(0.5, 1 - 0.32 / H))
         norm = ps.sym_norm([cut(res[n][k].sel(month=MONTH)) for n in res for k, _ in TERMS],
                            cmap=CMAP)
-        ps.text(fig, W / 2, map_top - 0.22, f"{calendar.month_name[MONTH]} at {level} hPa (land, "
-                "above ground; brown = RH falls, green = RH rises)", ha="center",
+        ps.text(fig, W / 2, map_top - 0.12, f"{calendar.month_name[MONTH]} trends", ha="center",
                 fontsize=fs["title"], fontweight="bold")
         k = 3
         for ri, (term, tlab) in enumerate(TERMS):
@@ -246,15 +247,17 @@ def plot():
                 ps.letter(ax, k)
                 k += 1
         ps.colourbar(fig, at(left + 0.5, cb_top, W - left - right - 1.0, 0.08), norm, CMAP,
-                     f"Trend of ln RH, ln q or -ln q$_s$ ({UNIT}); dashed: box of a)-c)")
+                     f"Trend of {LNRH}, {LNQ} or $-${LNQS} ({UNIT})\nbrown: RH falls, "
+                     "green: RH rises; dashed: box of a)-c)")
         ps.text(fig, W / 2, 0.05, f"Relative humidity trend decomposition at {level} hPa",
                 ha="center", va="top", fontsize=fs["suptitle"], fontweight="bold")
         ps.save(fig, config.RESULTS / OUT / f"rh_decomposition_{level}hPa.png")
 
         # residual figure
-        eq = ["RH = q / q$_s$(T, p),  so  ln RH = ln q - ln q$_s$  (exact)",
-              "trend(ln RH) = trend(ln q) + [-trend(ln q$_s$)] = q part + T part",
-              "residual = trend(ln RH) - q part - T part"]
+        eq = [r"$\mathrm{RH} = q\,/\,q_s(T, p)$,  so  $\ln\,\mathrm{RH} = \ln q - \ln q_s$  (exact)",
+              r"trend($\ln\,\mathrm{RH}$) = trend($\ln q$) + [$-$trend($\ln q_s$)] = $q$ part "
+              r"+ $T$ part",
+              r"residual = trend($\ln\,\mathrm{RH}$) $-$ $q$ part $-$ $T$ part"]
         H2 = 0.95 + 1.3 + 0.75 + mh + 0.95
         fig, at = ps.figure("full", H2)
         for i, line in enumerate(eq):
@@ -270,13 +273,13 @@ def plot():
                 o = res[name].sel(month=MONTH)
                 ps.map_panel(ax, cut(o.res), rnorm, cmap=CMAP, region=PLOT_MAP, left=(ci == 0),
                              box=BOX, xticks=[15, 30])
-                ax.set_title(f"box {float(o.box_res):+.2f}, ln RH {float(o.box_total):+.2f}",
+                ax.set_title(f"box {float(o.box_res):+.2f}, {LNRH} {float(o.box_total):+.2f}",
                              fontsize=fs["small"], pad=2)
             ps.letter(ax, 3 + ci)
         ps.colourbar(fig, at(left + 0.5, mt + mh + 0.32, W - left - right - 1.0, 0.08), rnorm, CMAP,
                      f"{calendar.month_name[MONTH]} residual ({UNIT})")
         fig.legend(handles=[Line2D([], [], marker="D", color="black", ls="", markersize=3,
-                                   label="Trend of ln RH (for scale)"),
+                                   label=f"Trend of {LNRH} (for scale)"),
                             Patch(facecolor=COL["res"], label="Residual")],
                    loc="upper right", ncol=2, frameon=False, bbox_to_anchor=(1 - right / W, 1 - 0.95 / H2))
         ps.text(fig, W / 2, 0.05, f"Residual of the RH trend decomposition at {level} hPa",

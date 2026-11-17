@@ -1,0 +1,117 @@
+Started Thu 12 Nov 12:15:45 UTC 2026 on ouce-cn49 with 6 readers, /soge-home/users/jesu4127/micromamba/envs/myenv/bin/python
+--- reading ERA5 hourly October files (12-hour means, cached) ---
+  [NOTE] t2m: no October file for [2025]
+  era5h12_t2m_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] q850: no October file for [2025]
+  era5h12_q850_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] t850: no October file for [2025]
+  era5h12_t850_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] w500: no October file for [2025]
+  era5h12_w500_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] w300: no October file for [2025]
+  era5h12_w300_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] lh: no October file for [2025]
+  era5h12_lh_composite: 27 cached, reading 19 file(s) with 6 worker(s) ...
+  [WARN] era5h12_lh_composite: a reading process was killed, most likely out of memory (ask for more with --mem, or export SAW_WORKERS=2). Reading the 19 remaining file(s) one at a time ...
+    1/19 read (5.1 min)
+    3/19 read (6.9 min)
+    5/19 read (8.6 min)
+    7/19 read (10.4 min)
+    9/19 read (12.2 min)
+    11/19 read (14.0 min)
+    13/19 read (15.8 min)
+    15/19 read (17.6 min)
+    17/19 read (19.3 min)
+    19/19 read (21.1 min)
+  era5h12_lh_composite: 46 files (19 read now, 27 from the cache)
+  [NOTE] swdn: no October file for [2025]
+  era5h12_swdn_composite: 0 cached, reading 46 file(s) with 6 worker(s) ...
+  [WARN] era5h12_swdn_composite: a reading process was killed, most likely out of memory (ask for more with --mem, or export SAW_WORKERS=2). Reading the 46 remaining file(s) one at a time ...
+    1/46 read (2.7 min)
+    3/46 read (4.4 min)
+    5/46 read (6.2 min)
+    7/46 read (8.0 min)
+    9/46 read (9.8 min)
+    11/46 read (11.6 min)
+    13/46 read (13.6 min)
+    15/46 read (15.4 min)
+    17/46 read (17.2 min)
+    19/46 read (18.9 min)
+    21/46 read (20.7 min)
+    23/46 read (22.4 min)
+    24/46 read (23.5 min)
+    25/46 read (24.4 min)
+    27/46 read (26.2 min)
+    29/46 read (27.9 min)
+    30/46 read (29.0 min)
+    32/46 read (30.8 min)
+    34/46 read (32.5 min)
+    36/46 read (34.2 min)
+    38/46 read (36.0 min)
+    40/46 read (37.8 min)
+    42/46 read (39.5 min)
+    44/46 read (41.2 min)
+    46/46 read (43.0 min)
+  era5h12_swdn_composite: 46 files (46 read now, 0 from the cache)
+=== with the trend ===
+  Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_ranking_day_october.csv
+  day: 1426 periods; P90 = +1.69 K (143 periods), P10 = -2.28 K (143)
+    t2m: composites done
+    q850: composites done
+    t850: composites done
+    w500: composites done
+    w300: composites done
+    lh: composites done
+    swdn: composites done
+  Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_ranking_night_october.csv
+  night: 1426 periods; P90 = +1.22 K (143 periods), P10 = -1.69 K (143)
+    t2m: composites done
+    q850: composites done
+    t850: composites done
+    w500: composites done
+    w300: composites done
+    lh: composites done
+=== detrended ===
+  Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_ranking_day_october_detrended.csv
+  day: 1426 periods; P90 = +1.44 K (143 periods), P10 = -2.09 K (143)
+    t2m: composites done
+    q850: composites done
+    t850: composites done
+    w500: composites done
+    w300: composites done
+    lh: composites done
+    swdn: composites done
+  Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_ranking_night_october_detrended.csv
+  night: 1426 periods; P90 = +1.08 K (143 periods), P10 = -1.56 K (143)
+    t2m: composites done
+    q850: composites done
+    t850: composites done
+    w500: composites done
+    w300: composites done
+    lh: composites done
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_box_correlations.csv
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+variable  half  r_box_mean     p    n
+     t2m   day       0.990 0.000 1426
+    q850   day      -0.378 0.000 1426
+    t850   day       0.939 0.000 1426
+    w500   day       0.060 0.212 1426
+    w300   day       0.084 0.112 1426
+      lh   day      -0.358 0.000 1426
+    swdn   day       0.718 0.000 1426
+     t2m night       0.984 0.000 1426
+    q850 night      -0.206 0.026 1426
+    t850 night       0.880 0.000 1426
+    w500 night       0.003 0.956 1426
+    w300 night       0.041 0.534 1426
+      lh night      -0.647 0.000 1426
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_index_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_composites_day_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_composites_night_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_index_october_detrended.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_composites_day_october_detrended.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_composites_night_october_detrended.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/hourly_composites/t2m12h_correlations_october_detrended.png
+Finished Thu 12 Nov 14:29:21 UTC 2026
+slurmstepd: error: Detected 2 oom_kill events in StepId=1063245.batch. Some of the step tasks have been OOM Killed.

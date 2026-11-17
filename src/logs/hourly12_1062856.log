@@ -1,0 +1,23 @@
+/var/lib/slurm/slurmd/job1062856/slurm_script: line 24: micromamba: command not found
+Started Wed 11 Nov 21:06:14 UTC 2026 on ouce-cn49 with 12 CPUs
+--- reading ERA5 hourly October files (12-hour means, cached) ---
+  [NOTE] t2m: no October file for [2025]
+  era5h12_t2m_composite: 0 cached, reading 46 file(s) with 12 worker(s) ...
+    23/46 read (1.0 min)
+    25/46 read (1.1 min)
+    46/46 read (1.7 min)
+  era5h12_t2m_composite: 46 files (46 read now, 0 from the cache)
+  [NOTE] q850: no October file for [2025]
+  era5h12_q850_composite: 0 cached, reading 46 file(s) with 12 worker(s) ...
+    1/46 read (351.9 min)
+    2/46 read (358.0 min)
+    3/46 read (363.8 min)
+    5/46 read (425.2 min)
+    6/46 read (426.6 min)
+    7/46 read (428.3 min)
+    9/46 read (431.2 min)
+    10/46 read (433.9 min)
+    11/46 read (437.6 min)
+    12/46 read (490.3 min)
+    14/46 read (493.9 min)
+slurmstepd: error: *** JOB 1062856 ON ouce-cn49 CANCELLED AT 2026-11-12T10:00:11 ***

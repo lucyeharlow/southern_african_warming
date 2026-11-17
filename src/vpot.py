@@ -7,12 +7,14 @@ Run:  python velocity_potential.py [compute | plot]
 Run the figures on their own with velocity_potential_reanalyses.py and
 velocity_potential_cmip6.py (each computes first if its data files are missing).
 
-FIGURES  results/velocity_potential/vp200_reanalyses_october.png   ERA5, MERRA-2, JRA-3Q
-         results/velocity_potential/vp200_cmip6_october.png        CMIP6 AMIP, historical
-  Datasets as columns; rows: chi climatology, chi trend, divergence climatology, divergence
-  trend, black dots where the trend is significant. Reanalyses: FDR q = 0.10 over the global
+FIGURES  results/velocity_potential/chi200_reanalyses_october.png  velocity potential, ERA5,
+         results/velocity_potential/div200_reanalyses_october.png  divergence      MERRA-2, JRA-3Q
+         results/velocity_potential/chi200_cmip6_october.png       velocity potential, CMIP6
+         results/velocity_potential/div200_cmip6_october.png       divergence      AMIP, historical
+  Datasets as rows (name and period on the left); columns climatology and trend, black dots
+  where the trend is significant; a colour bar under each column. Reanalyses: FDR q = 0.10 over the global
   map. CMIP6: one-sample t test of the models' trends against zero, then the same FDR. One
-  colour scale per row, set from that figure's datasets.
+  colour scale per column, set from that figure's datasets.
 
 DATA (native grids, global; reanalysis years from config.YEARS)
   ERA5     RAW['era5_chi'] chi_october_pl.nc (chi on pressure levels, computed from u, v)
@@ -187,81 +189,80 @@ def compute():
 
 
 # ---------------------------------------------------------------- plot
-def plot_group(names, stem, title):
-    """One figure for a group of datasets: datasets as columns (titles on top); rows chi
-    climatology, chi trend, divergence climatology, divergence trend (black dots: significant).
-    One colour scale per row, from this figure's datasets."""
+def row_label(n, years):
+    """Dataset name and period for the left of a row (CMIP6: name and period on short lines)."""
+    if n.startswith("CMIP6 "):
+        n = n.replace("CMIP6 ", "CMIP6\n")
+        years = years.replace(", mean of ", "\n")
+    return n, years
+
+
+def plot_quantity(names, q, stem, title):
+    """One figure for one quantity (chi or div) and a group of datasets: datasets as rows (name
+    and period on the left), columns climatology and trend (black dots: significant). One
+    colour scale per column, from this figure's datasets, as a colour bar under the column."""
     import cartopy.crs as ccrs
     ps.setup()
     fs, W = config.FS, config.WIDTH["full"]
-    res = {q: {n: xr.load_dataset(data_file(q, n)) for n in names if data_file(q, n).exists()}
-           for q in QUANT}
-    names = [n for n in names if any(n in res[q] for q in QUANT)]
+    res = {n: xr.load_dataset(data_file(q, n)) for n in names if data_file(q, n).exists()}
+    names = [n for n in names if n in res]
     if not names:
-        print(f"no data files for {', '.join(names) or stem}: run compute first")
+        print(f"no {q} data files for {stem}: run compute first")
         return
-    rows = [(q, var) for q in QUANT for var in ("clim", "trend") if res[q]]
-    left, right, gx, cbw = 0.42, 0.1, 0.1, 0.75
-    nc = len(names)
-    pw = (W - left - right - cbw - (nc - 1) * gx) / nc
+    meta, sc = QUANT[q], QUANT[q]["scale"]
+    cols = [("clim", "Climatology"), ("trend", f"Trend (dots: significant, FDR q = {config.ALPHA_FDR:.2f})")]
+    lab_w, tick_w, right, gx, gy = 0.85, 0.33, 0.05, 0.08, 0.08
+    x_first = lab_w + tick_w
+    pw = (W - x_first - right - gx) / 2
     ph = pw / 2
-    head, gy = 0.2, 0.32
-    top = 0.92
-    tops = [top + i * (ph + gy + head) for i in range(len(rows))]
-    H = tops[-1] + ph + 0.4
+    top = 0.5
+    xlab, cb_gap, cb_h, cb_lab = 0.17, 0.06, 0.07, 0.62
+    tops = [top + i * (ph + gy) for i in range(len(names))]
+    H = tops[-1] + ph + xlab + cb_gap + cb_h + cb_lab
     fig, at = ps.figure("full", H)
-    for ci, n in enumerate(names):
-        any_ds = next(res[q][n] for q in QUANT if n in res[q])
-        x0 = left + ci * (pw + gx)
-        ps.text(fig, x0 + pw / 2, 0.47, n, ha="center", fontsize=fs["title"], fontweight="bold",
-                color=STYLE.get(n, ps.colour(n) if n in config.DATASETS else "k"))
-        ps.text(fig, x0 + pw / 2, 0.5, any_ds.attrs["years"], ha="center", va="top",
-                fontsize=fs["small"], color="0.3")
+    norms = {var: ps.sym_norm([d[var] * sc for d in res.values()]) for var, _ in cols}
+    for ci, (var, head) in enumerate(cols):
+        ps.text(fig, x_first + ci * (pw + gx) + pw / 2, top - 0.04, head, ha="center",
+                fontsize=fs["title"], fontweight="bold")
     k = 0
-    for ri, (q, var) in enumerate(rows):
-        meta, sc = QUANT[q], QUANT[q]["scale"]
-        sym = "χ" if q == "chi" else "div"
-        norm = ps.sym_norm([d[var] * sc for d in res[q].values()])
-        t0 = tops[ri]
-        ps.text(fig, left, t0 - 0.05,
-                f"{sym} {'climatology' if var == 'clim' else 'trend'}"
-                + (" (dots: significant)" if var == "trend" else ""),
-                fontsize=fs["label"], fontweight="bold")
-        for ci, n in enumerate(names):
-            x0 = left + ci * (pw + gx)
-            ax = at(x0, t0, pw, ph, projection=ccrs.PlateCarree())
-            if n not in res[q]:
-                ps.map_frame(ax, REGION, left=(ci == 0), bottom=True, **TICKS)
-                ax.text(0.5, 0.5, "no data", transform=ax.transAxes, ha="center", va="center",
-                        fontsize=fs["small"], color="0.4")
-                continue
-            d = res[q][n]
+    for ri, n in enumerate(names):
+        d, t0 = res[n], tops[ri]
+        last = ri == len(names) - 1
+        name, years = row_label(n, d.attrs["years"])
+        colour = STYLE.get(n, ps.colour(n) if n in config.DATASETS else "k")
+        ps.text(fig, 0.03, t0 + ph / 2 - 0.02, name, ha="left", va="bottom",
+                fontsize=fs["title"], fontweight="bold", color=colour)
+        ps.text(fig, 0.03, t0 + ph / 2 + 0.02, years, ha="left", va="top",
+                fontsize=fs["small"], color="0.3")
+        for ci, (var, _) in enumerate(cols):
+            ax = at(x_first + ci * (pw + gx), t0, pw, ph, projection=ccrs.PlateCarree())
             dots = var == "trend"
-            ps.map_panel(ax, d[var] * sc, norm, sig=d.sig.astype(bool).values if dots else None,
-                         region=REGION, left=(ci == 0), bottom=True, **TICKS)
-            if dots:
-                ax.text(0.98, 0.04, f"{stats.pct_area(d.sig.astype(bool), d.trend.notnull()):.0f}% "
-                        "of area sig.", transform=ax.transAxes, ha="right", va="bottom",
-                        fontsize=fs["small"], zorder=10,
-                        bbox=dict(boxstyle="square,pad=0.1", fc="white", ec="none", alpha=0.8))
+            ps.map_panel(ax, d[var] * sc, norms[var], sig=d.sig.astype(bool).values if dots else None,
+                         region=REGION, left=(ci == 0), bottom=last, **TICKS)
             ps.letter(ax, k)
             k += 1
+    cb_top = tops[-1] + ph + xlab + cb_gap
+    for ci, (var, _) in enumerate(cols):
         unit = meta["unit"] + (" decade$^{-1}$" if var == "trend" else "")
-        ps.colourbar(fig, at(W - right - cbw + 0.12, t0, 0.08, ph), norm, "RdBu_r", unit,
-                     orientation="vertical", nticks=5)
+        what = f"{meta['title'].capitalize()} {'climatology' if var == 'clim' else 'trend'}"
+        x0 = x_first + ci * (pw + gx)
+        ps.colourbar(fig, at(x0 + 0.08 * pw, cb_top, 0.84 * pw, cb_h), norms[var], "RdBu_r",
+                     f"{what}\n({unit})", nticks=5)
     ps.text(fig, W / 2, 0.06, title, ha="center", va="top", fontsize=fs["suptitle"],
             fontweight="bold")
     ps.save(fig, config.RESULTS / OUT / f"{stem}.png")
 
 
-def figure_title(group):
-    return (f"{calendar.month_name[MONTH]} {LEVEL:.0f} hPa velocity potential and divergence, "
-            f"{group}")
+def plot_group(names, group, label):
+    """The velocity potential figure and the divergence figure for a group of datasets."""
+    for q in QUANT:
+        plot_quantity(names, q, f"{q}{LEVEL:.0f}_{group}_october",
+                      f"{calendar.month_name[MONTH]} {LEVEL:.0f} hPa {QUANT[q]['title']}, {label}")
 
 
 def plot():
-    plot_group(REANALYSES, f"vp{LEVEL:.0f}_reanalyses_october", figure_title("reanalyses"))
-    plot_group(list(CMIP), f"vp{LEVEL:.0f}_cmip6_october", figure_title("CMIP6 multi-model means"))
+    plot_group(REANALYSES, "reanalyses", "reanalyses")
+    plot_group(list(CMIP), "cmip6", "CMIP6 multi-model means")
 
 
 def missing(names):

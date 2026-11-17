@@ -1,5 +1,5 @@
 #!/bin/bash --login
-#SBATCH --job-name=vpot_reanalyses
+#SBATCH --job-name=velocity_potential_composites
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=64gb
@@ -7,8 +7,8 @@
 #SBATCH --partition=Long
 #SBATCH --mail-type=START,END,FAIL
 #SBATCH --mail-user=katcutain@hotmail.com
-#SBATCH --output=/soge-home/users/jesu4127/southern_african_warming/src/logs/vpot_reanalyses_%j.out
-#SBATCH --error=/soge-home/users/jesu4127/southern_african_warming/src/logs/vpot_%j.err
+#SBATCH --output=/soge-home/users/jesu4127/southern_african_warming/src/logs/velocity_potential_composites_%j.out
+#SBATCH --error=/soge-home/users/jesu4127/southern_african_warming/src/logs/velocity_potential_composites_%j.err
 
 set -euo pipefail
 
@@ -20,7 +20,7 @@ echo "Started: $(date)"
 echo "============================================"
 
 WORKDIR="/soge-home/users/jesu4127/southern_african_warming/src"
-/hn01-home/jesu4127/micromamba/envs/myenv/bin/python "$WORKDIR/vpot_reanalyses.py"
+/hn01-home/jesu4127/micromamba/envs/myenv/bin/python "$WORKDIR/velocity_potential_composites.py"
 
 echo
 echo "Python version:"
@@ -30,7 +30,7 @@ echo
 echo "Starting analysis..."
 echo "============================================"
 
-python "$WORKDIR/vpot_reanalyses.py"
+python "$WORKDIR/velocity_potential_composites.py"
 
 echo
 echo "============================================"

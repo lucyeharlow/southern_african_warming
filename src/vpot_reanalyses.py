@@ -3,7 +3,8 @@ October 200 hPa velocity potential and divergence: reanalyses (ERA5, MERRA-2, JR
 (main figure ).
 
 Run:  python velocity_potential_reanalyses.py [compute | plot]
-FIGURE  results/velocity_potential/vp200_reanalyses_october.png
+FIGURES results/velocity_potential/chi200_reanalyses_october.png (velocity potential)
+         results/velocity_potential/div200_reanalyses_october.png (divergence)
 The calculation and the figure layout are in velocity_potential.py (compute covers every
 dataset; it runs here if this figure's data files are missing).
 """
@@ -20,4 +21,4 @@ if __name__ == "__main__":
     if what == "compute" or (what == "all" and vp.missing(NAMES)):
         vp.compute()
     if what in ("plot", "all"):
-        vp.plot_group(NAMES, f"vp{vp.LEVEL:.0f}_reanalyses_october", vp.figure_title("reanalyses"))
+        vp.plot_group(NAMES, "reanalyses", "reanalyses")

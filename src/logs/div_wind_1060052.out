@@ -1,0 +1,68 @@
+============================================
+CHIRTS overlay job
+Job ID: 1060052
+Node: ouce-cn47
+Started: Fri  6 Nov 13:03:20 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_r10.0_40.0_m40.0_20.0: 46 files (0 read now, 46 from the cache)
+  check: v_chi from d(chi)/d(phi) against the solver's irrotational wind (|lat| < 80): RMS difference 0.0796 m s-1, RMS v_chi 1 m s-1
+  October 1980: v_chi done
+  October 1981: v_chi done
+  October 1982: v_chi done
+  October 1983: v_chi done
+  October 1984: v_chi done
+  October 1985: v_chi done
+  October 1986: v_chi done
+  October 1987: v_chi done
+  October 1988: v_chi done
+  October 1989: v_chi done
+  October 1990: v_chi done
+  October 1991: v_chi done
+  October 1992: v_chi done
+  October 1993: v_chi done
+  October 1994: v_chi done
+  October 1995: v_chi done
+  October 1996: v_chi done
+  October 1997: v_chi done
+  October 1998: v_chi done
+  October 1999: v_chi done
+  October 2000: v_chi done
+  October 2001: v_chi done
+  October 2002: v_chi done
+  October 2003: v_chi done
+  October 2004: v_chi done
+  October 2005: v_chi done
+  October 2006: v_chi done
+  October 2007: v_chi done
+  October 2008: v_chi done
+  October 2009: v_chi done
+  October 2010: v_chi done
+  October 2011: v_chi done
+  October 2012: v_chi done
+  October 2013: v_chi done
+  October 2014: v_chi done
+  October 2015: v_chi done
+  October 2016: v_chi done
+  October 2017: v_chi done
+  October 2018: v_chi done
+  October 2019: v_chi done
+  October 2020: v_chi done
+  October 2021: v_chi done
+  October 2022: v_chi done
+  October 2023: v_chi done
+  October 2024: v_chi done
+  [WARN] no u/v GRIB for October 2025
+omega from the GRIB archive (45 Octobers)
+saved /hn01-home/jesu4127/southern_african_warming/data/vchi/vchi_yearly_october.nc (1980-2024, 45 Octobers)
+Saved: /hn01-home/jesu4127/southern_african_warming/results/vchi/vchi_section_october.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/vchi/vchi_section_october.png
+
+============================================
+Finished: Fri  6 Nov 13:06:13 UTC 2026
+============================================

@@ -1,0 +1,31 @@
+============================================
+CHIRTS overlay job
+Job ID: 1034105
+Node: ouce-cn54
+Started: Thu  5 Nov 12:30:41 UTC 2026
+============================================
+GEBA: 7 stations (GLOBAL, > 15 Oct values after 1980)
+--- ERA5 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'sw_down_trends'
+--- MERRA-2 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'sw_down_trends'
+--- CLARA-A3 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'sw_down_trends'
+--- SARAH-3 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'sw_down_trends'
+--- CERES ---
+saved /hn01-home/jesu4127/southern_african_warming/data/geba/geba_station_sw_october.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/geba/geba_station_cells.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/geba/geba_station_sw_october.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/geba/geba_station_cells.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/geba/geba_station_sw_october.png
+
+============================================
+Finished: Thu  5 Nov 12:30:53 UTC 2026
+============================================

@@ -39,6 +39,7 @@ RAW = {
     "geba": HOME / "data/geba",
     "jra3q_grib": Path("/soge-home/data/analysis/jra-q3"),       # 6-hourly GRIB analyses
     "era5_chi": HOME / "data/era5_vel_pot/chi_october_pl.nc",
+    "era5_sst": HOME / "data/era5/global_era5_ssts.nc",             # monthly SST (sst, K)
     "cmip6_vp": HOME / "data/cmip6_vel_pot/velocity_potential_trends",
 }
 
@@ -101,6 +102,8 @@ REGIONS = {
     "omega_sfc": dict(lon=(10.0, 40.0), lat=(-35.0, 10.0)),       # omega300 correlations
     "tropics": dict(lon=(-120.0, 120.0), lat=(-40.0, 40.0)),      # global flux trends
     "tropics_band": dict(lon=(-180.0, 180.0), lat=(-23.5, 23.5)),  # temperature by region
+    "composite": dict(lon=(-20.0, 60.0), lat=(-40.0, 20.0)),     # chi200 composite maps
+    "sst_band": dict(lon=(-180.0, 180.0), lat=(-60.0, 60.0)),    # their SST maps
     "global": dict(lon=(-180.0, 180.0), lat=(-90.0, 90.0)),
 }
 

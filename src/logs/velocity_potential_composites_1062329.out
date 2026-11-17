@@ -1,0 +1,58 @@
+============================================
+CHIRTS overlay job
+Job ID: 1062329
+Node: ouce-cn49
+Started: Wed 11 Nov 12:50:12 UTC 2026
+============================================
+--- index: ERA5 October chi200 over the Southern Africa box ---
+  47 years; P90 = +1.65, P10 = -2.46 x10^6 m2 s-1
+  high years: 2013, 2017, 2020, 2024, 2025
+  low years:  1982, 1997, 2011, 2019, 2023
+  correlation of the index with time: r = +0.21
+  era5_w_composite_500_m10: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.0 min)
+    47/47 read (0.1 min)
+  era5_w_composite_500_m10: 47 files (47 read now, 0 from the cache)
+  no global_total_cloud_cover.nc: total cloud from the 3-D cloud fraction (cloud_fraction_trends.py cache, 10-40E only)
+  merra2_instM_3d_asm_Np_PS_africa_10_40: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_africa_10_40: 47 files (0 read now, 47 from the cache)
+--- composite: omega ---
+--- composite: cloud ---
+--- composite: t2m ---
+--- composite: swdn ---
+--- composite: lh ---
+--- composite: res ---
+--- composite: sst ---
+--- composite: chi ---
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_composites_october.csv
+variable  units  land_only  box_high  box_low  box_diff  pct_area_sig_high  pct_area_sig_low  pct_area_sig_diff
+   omega Pa s-1      False     0.005   -0.003     0.008              0.000             4.513              2.139
+   cloud      %      False    -1.849    0.807    -2.657              0.000             5.081              1.318
+     t2m      K      False     0.114    0.028     0.086              1.067             0.000              0.000
+    swdn  W m-2      False     1.816   -3.051     4.867              0.000             0.693              0.000
+     res  W m-2       True    -0.178   -0.495     0.317              0.000             0.036              0.157
+      lh  W m-2       True    -1.898    2.326    -4.224              0.000             2.118              0.345
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_index_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_composites_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_composites_sst_october.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_composites_october.csv
+variable  units  land_only  box_high  box_low  box_diff  pct_area_sig_high  pct_area_sig_low  pct_area_sig_diff
+   omega Pa s-1      False     0.005   -0.003     0.008              0.000             4.513              2.139
+   cloud      %      False    -1.849    0.807    -2.657              0.000             5.081              1.318
+     t2m      K      False     0.114    0.028     0.086              1.067             0.000              0.000
+    swdn  W m-2      False     1.816   -3.051     4.867              0.000             0.693              0.000
+     res  W m-2       True    -0.178   -0.495     0.317              0.000             0.036              0.157
+      lh  W m-2       True    -1.898    2.326    -4.224              0.000             2.118              0.345
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_index_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_composites_october.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/chi_composites/chi_composites_sst_october.png
+
+============================================
+Finished: Wed 11 Nov 12:53:12 UTC 2026
+============================================

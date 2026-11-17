@@ -302,10 +302,9 @@ def plot():
         else:
             fit(axc, vals)
         axc.set_xlim(COMMON[0] - 0.5, COMMON[1] + 0.5)
-        kind = "cloud fraction" if absolute else "anomaly"
-        for ax, title in ((axb, "CLARA-A3 " + (full.attrs["years"] if full is not None else "")
-                           + f", {kind}"),
-                          (axc, f"Cross validation {COMMON[0]}-{COMMON[1]}, {kind}")):
+        for ax, title in ((axb, "CLARA-A3" + (f" ({full.attrs['years']})" if full is not None
+                                             else "")),
+                          (axc, f"Cross validation ({COMMON[0]}-{COMMON[1]})")):
             if not absolute:
                 ax.axhline(0, color="k", lw=0.5)
             ax.grid(axis="y", alpha=0.3, lw=0.4)

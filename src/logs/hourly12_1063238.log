@@ -1,0 +1,45 @@
+Started Thu 12 Nov 11:38:20 UTC 2026 on ouce-cn55 with 6 readers, /soge-home/users/jesu4127/micromamba/envs/myenv/bin/python
+--- reading ERA5 hourly October files (12-hour means, cached) ---
+  [NOTE] t2m: no October file for [2025]
+  era5h12_t2m_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] q850: no October file for [2025]
+  era5h12_q850_composite: 44 cached, reading 2 file(s) with 6 worker(s) ...
+    1/2 read (3.1 min)
+    2/2 read (3.1 min)
+  era5h12_q850_composite: 46 files (2 read now, 44 from the cache)
+  [NOTE] t850: no October file for [2025]
+  era5h12_t850_composite: 45 cached, reading 1 file(s) with 6 worker(s) ...
+    1/1 read (2.0 min)
+  era5h12_t850_composite: 46 files (1 read now, 45 from the cache)
+  [NOTE] w500: no October file for [2025]
+  era5h12_w500_composite: 44 cached, reading 2 file(s) with 6 worker(s) ...
+    1/2 read (1.7 min)
+    2/2 read (2.1 min)
+  era5h12_w500_composite: 46 files (2 read now, 44 from the cache)
+  [NOTE] w300: no October file for [2025]
+  era5h12_w300_composite: 44 cached, reading 2 file(s) with 6 worker(s) ...
+    1/2 read (1.8 min)
+    2/2 read (2.0 min)
+  era5h12_w300_composite: 46 files (2 read now, 44 from the cache)
+  [NOTE] lh: no October file for [2025]
+  era5h12_lh_composite: 0 cached, reading 46 file(s) with 6 worker(s) ...
+  [WARN] era5h12_lh_composite: a reading process was killed, most likely out of memory (ask for more with --mem, or export SAW_WORKERS=2). Reading the 46 remaining file(s) one at a time ...
+    1/46 read (3.0 min)
+    2/46 read (4.0 min)
+    3/46 read (5.1 min)
+    4/46 read (6.1 min)
+    5/46 read (7.2 min)
+    6/46 read (8.2 min)
+    8/46 read (10.1 min)
+    10/46 read (11.9 min)
+    12/46 read (13.7 min)
+    14/46 read (15.5 min)
+    16/46 read (17.2 min)
+    18/46 read (19.0 min)
+    20/46 read (20.8 min)
+    22/46 read (22.7 min)
+    24/46 read (24.5 min)
+    25/46 read (25.4 min)
+    26/46 read (26.4 min)
+slurmstepd: error: *** JOB 1063238 ON ouce-cn55 CANCELLED AT 2026-11-12T12:15:40 ***
+slurmstepd: error: Detected 1 oom_kill event in StepId=1063238.batch. Some of the step tasks have been OOM Killed.

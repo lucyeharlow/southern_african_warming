@@ -1,0 +1,4 @@
+/var/lib/slurm/slurmd/job1062855/slurm_script: line 24: micromamba: command not found
+Started Wed 11 Nov 21:05:13 UTC 2026 on ouce-cn49 with 12 CPUs
+python3: can't open file '/var/lib/slurm/slurmd/job1062855/hourly_composites.py': [Errno 2] No such file or directory
+Finished Wed 11 Nov 21:05:13 UTC 2026

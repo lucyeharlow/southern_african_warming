@@ -75,7 +75,7 @@ def _t2m(name, m):
 
 
 def _sw(name, m):
-    import sw_down_trends as sd
+    import sw_trends as sd
     return sd.load(name).sel(month=m)
 
 
@@ -88,7 +88,7 @@ def _cf(layer):
 
 def _budget(full):
     def f(name, m):
-        import radiation_budget_trends as rb
+        import rad_budget as rb
         comp = rb.components(name, full)
         return sum(rb.SIGN[k] * v for k, v in comp.items()).sel(month=m)
     return f
@@ -103,7 +103,7 @@ def _omega(name, m):
 
 def _rh(name, m):
     try:
-        import rh_decomposition as rhd
+        import rh_2 as rhd
     except ImportError:
         import rh as rhd
     return rhd.load(name, 850)["rh"].sel(month=m)

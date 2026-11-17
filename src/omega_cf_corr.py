@@ -181,7 +181,7 @@ def section(ax, o, var, norm=None, strength=None, cols=None, show=None, valid=No
     lat, lev = o.lat.values, o.lev.values
     if var == "r":
         ax.pcolormesh(lat, lev, o.r, cmap=cmap, norm=norm, shading="nearest", rasterized=True)
-    else:
+    elif var is not None:                 # None: frame, dots and surface line only
         code, other = var
         ps.categories(ax, lat, lev, code, strength, cols, other=other)
     if show is not None:
@@ -218,7 +218,7 @@ def plot(names=NAMES, lev=OMEGA_LEV):
         top = 0.62
         tops = [top + i * (ph + gy) for i in range(3)]
         cb_top = tops[2] + ph + 0.45
-        H = cb_top + 1.35 + (0.2 if layered(name) else 0)
+        H = cb_top + 1.5 + (0.2 if layered(name) else 0)
         fig, at = ps.figure("full", H)
         rnorm = TwoSlopeNorm(vmin=-1, vcenter=0, vmax=1)
         rows = ["Detrended r", "CF decreasing", "CF increasing"]
@@ -254,22 +254,23 @@ def plot(names=NAMES, lev=OMEGA_LEV):
         cb = fig.colorbar(plt.cm.ScalarMappable(norm=plt.Normalize(0, 1),
                                                 cmap=ps.shade_cmap("0.2")),
                           cax=at(left + 2.6, cb_top, 2.0, 0.08), orientation="horizontal")
-        cb.set_label("Colour strength = |r| (rows 2-3)", fontsize=fs["label"])
+        cb.set_label("Colour saturation corresponds to\ncorrelation strength)",
+                     fontsize=fs["label"])
         cb.ax.tick_params(labelsize=fs["tick"], length=2)
         h = ps.regime_handles() + [
             Patch(facecolor=config.C_OTHER, label="CF changes the other way"),
             Line2D([], [], color=C_SP_LINE, lw=1, label="Surface pressure"),
             ps.dot_handle(f"r significant (FDR q = {config.ALPHA_FDR:.2f})")]
         fig.legend(handles=h, loc="upper center", ncol=3, frameon=False, handlelength=1.2,
-                   columnspacing=1.0, bbox_to_anchor=(0.5, 1 - (cb_top + 0.5) / H),
-                   title=f"{wl} long-term change (rows 2-3; black mark = {lev:.0f} hPa)",
+                   columnspacing=1.0, bbox_to_anchor=(0.5, 1 - (cb_top + 0.65) / H),
+                   title=f"{wl} long-term change",
                    title_fontsize=fs["legend"])
         if layered(name):
             ps.text(fig, W / 2, H - 0.08, "JRA-3Q cloud: its high (90-500 hPa), middle (500-850) "
                     "and low (850-1100) cloud covers, each drawn over its pressure range",
                     ha="center", fontsize=fs["small"], color="0.3")
         ps.text(fig, W / 2, 0.06, f"{ps.label(name)} {calendar.month_name[MONTH]} "
-                f"{ds.attrs['years']}: detrended r({wl}, cloud fraction through the column), land",
+                f"{ds.attrs['years']}: detrended r({wl}, cloud fraction)",
                 ha="center", va="top", fontsize=fs["suptitle"], fontweight="bold")
         ps.save(fig, config.RESULTS / OUT / f"omega{lev:.0f}_cf_{name.replace('-', '')}.png")
 

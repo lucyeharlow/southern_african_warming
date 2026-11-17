@@ -1,0 +1,13 @@
+ln: failed to create symbolic link '/soge-home/users/jesu4127/RFS': File exists
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+/hn01-home/jesu4127/southern_african_warming/src/plotstyle.py:39: UserWarning: Arial/Helvetica not installed: using Liberation Sans (metric-compatible with Arial if Liberation Sans). Install Arial for the final figures.
+  warnings.warn(f"Arial/Helvetica not installed: using {_FONT} (metric-compatible with "
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/humidity_850.py", line 289, in <module>
+    plot()
+  File "/soge-home/users/jesu4127/southern_african_warming/src/humidity_850.py", line 280, in plot
+    plot_figure(res)
+  File "/soge-home/users/jesu4127/southern_african_warming/src/humidity_850.py", line 177, in plot_figure
+    import cartopy.crs as ccrs
+ModuleNotFoundError: No module named 'cartopy'

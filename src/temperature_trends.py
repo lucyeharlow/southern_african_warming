@@ -173,7 +173,7 @@ def plot():
     mw = (W - left - right - (ncol - 1) * gap) / ncol
     r = config.REGIONS[REGION]
     mh = mw * (r["lat"][1] - r["lat"][0]) / (r["lon"][1] - r["lon"][0])
-    head = 0.34                                            # dataset name + stats line
+    head = 0.4                                             # dataset name + years
     map_top = box_top + box_h + 0.62 + head
     row_step = mh + 0.2 + head
     cb_top = map_top + 2 * row_step - head + 0.0
@@ -204,11 +204,9 @@ def plot():
         ps.map_panel(axm, o.trend, norm, sig=o.sig.astype(bool).values, region=REGION,
                      left=(cc == 0), bottom=True)
         ps.letter(axm, i + 1)
-        ps.text(fig, x0, t0 - 0.17, f"{ps.label(name)} ({ps.span(years[name])})",
+        ps.text(fig, x0 + mw / 2, t0 - 0.2, ps.label(name), ha="center",
                 fontsize=fs["title"], fontweight="bold", color=ps.colour(name))
-        ps.text(fig, x0, t0 - 0.03,
-                f"n$_{{eff}}$ ≈ {stats.wmedian(o.n_eff):.0f} of {len(years[name])}, "
-                f"{stats.pct_area(o.sig.astype(bool), o.trend.notnull()):.0f}% of area sig.",
+        ps.text(fig, x0 + mw / 2, t0 - 0.03, ps.span(years[name]), ha="center",
                 fontsize=fs["small"], color="0.25")
     cb = ps.colourbar(fig, at(left + 0.6, cb_top, W - left - right - 1.2, 0.1), norm, "RdBu_r",
                       f"{calendar.month_name[MONTH]} trend (°C decade$^{{-1}}$); "

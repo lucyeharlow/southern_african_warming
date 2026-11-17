@@ -1,0 +1,284 @@
+============================================
+CHIRTS overlay job
+Job ID: 1025432
+Node: ouce-cn39
+Started: Wed  4 Nov 18:09:38 UTC 2026
+============================================
+--- t2m, ERA5 ---
+  cells: 8030, median r1 -0.10 (bias-corrected -0.08); % of area failing: ar1_not_enough 8, r1_bias 0, non_normal 2, heteroscedastic 9, curvature 6, breakpoint 6, small_n_eff 0, test_disagrees 3
+  box: trend +0.452/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.20, r2 -0.31 (AR(1): 0.04)
+--- t2m, MERRA-2 ---
+  merra2_instM_2d_asm_Nx_T2M_southern_africa: 559 files (0 read now, 559 from the cache)
+  cells: 1620, median r1 -0.11 (bias-corrected -0.09); % of area failing: ar1_not_enough 7, r1_bias 0, non_normal 8, heteroscedastic 5, curvature 7, breakpoint 10, small_n_eff 0, test_disagrees 5
+  box: trend +0.315/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.19, r2 -0.25 (AR(1): 0.04)
+--- t2m, JRA-3Q ---
+  jra3q_tmp2m-hgt-an-gauss_southern_africa: 564 files (0 read now, 564 from the cache)
+  cells: 3525, median r1 -0.08 (bias-corrected -0.07); % of area failing: ar1_not_enough 9, r1_bias 0, non_normal 6, heteroscedastic 7, curvature 7, breakpoint 6, small_n_eff 0, test_disagrees 4
+  box: trend +0.383/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.18, r2 -0.37 (AR(1): 0.03)
+--- t2m, NOAA ---
+  cells: 21, median r1 -0.11 (bias-corrected -0.09); % of area failing: ar1_not_enough 5, r1_bias 0, non_normal 4, heteroscedastic 5, curvature 10, breakpoint 0, small_n_eff 0, test_disagrees 0
+  box: trend +0.332/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.10, r2 -0.17 (AR(1): 0.01)
+--- t2m, CHIRTS ---
+  chirts_tmean_southern_africa: 34 files (0 read now, 34 from the cache)
+  cells: 199132, median r1 -0.08 (bias-corrected -0.05); % of area failing: ar1_not_enough 3, r1_bias 2, non_normal 4, heteroscedastic 6, curvature 3, breakpoint 9, small_n_eff 0, test_disagrees 7
+  box: trend +0.323/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.31, r2 +0.09 (AR(1): 0.09)
+--- t2m, CRUTEM5 ---
+  [WARN] t2m CRUTEM5: cells missing in 1981 (5%), 1982 (5%), 1985 (5%), 1986 (14%), 1987 (19%), 1988 (10%), 1989 (5%), 1990 (14%), 1991 (10%), 1992 (14%), 1993 (14%), 1994 (5%) ...; those cells are left out of the trends
+  cells: 4, median r1 -0.00 (bias-corrected +0.02); % of area failing: ar1_not_enough 0, r1_bias 0, non_normal 0, heteroscedastic 0, curvature 0, breakpoint 0, small_n_eff 0, test_disagrees 0
+  box: trend +0.352/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.001, bootstrap 0.000); r1 -0.07, r2 -0.25 (AR(1): 0.00)
+--- sw_down, ERA5 ---
+  cells: 8030, median r1 -0.05 (bias-corrected -0.03); % of area failing: ar1_not_enough 2, r1_bias 1, non_normal 7, heteroscedastic 16, curvature 6, breakpoint 2, small_n_eff 0, test_disagrees 9
+  box: trend +3.644/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.09, r2 -0.06 (AR(1): 0.01)
+--- sw_down, MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_SWGDN_africa_10_40: 558 files (0 read now, 558 from the cache)
+  cells: 1620, median r1 +0.03 (bias-corrected +0.05); % of area failing: ar1_not_enough 1, r1_bias 1, non_normal 11, heteroscedastic 0, curvature 11, breakpoint 12, small_n_eff 0, test_disagrees 6
+  box: trend -0.498/decade, p 0.603 (r1 corrected 0.615, Mann-Kendall 0.800, bootstrap 0.540); r1 +0.11, r2 -0.03 (AR(1): 0.01)
+--- sw_down, JRA-3Q ---
+  jra3q_dswrf1have-sfc-fc-ll125_tropics: 565 files (0 read now, 565 from the cache)
+  cells: 332, median r1 +0.00 (bias-corrected +0.02); % of area failing: ar1_not_enough 3, r1_bias 1, non_normal 9, heteroscedastic 11, curvature 2, breakpoint 6, small_n_eff 0, test_disagrees 5
+  box: trend +1.248/decade, p 0.039 (r1 corrected 0.044, Mann-Kendall 0.050, bootstrap 0.019); r1 +0.00, r2 -0.04 (AR(1): 0.00)
+--- sw_down, CLARA-A3 ---
+  cmsaf_SIS_SIS_africa_10_40: 563 files (0 read now, 563 from the cache)
+  cells: 7971, median r1 -0.07 (bias-corrected -0.05); % of area failing: ar1_not_enough 5, r1_bias 0, non_normal 13, heteroscedastic 22, curvature 5, breakpoint 3, small_n_eff 0, test_disagrees 2
+  box: trend +8.599/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.09, r2 +0.04 (AR(1): 0.01)
+--- sw_down, SARAH-3 ---
+  cmsaf_sarah_3_SIS_SIS_africa_10_40: 523 files (0 read now, 523 from the cache)
+  cells: 199141, median r1 -0.07 (bias-corrected -0.05); % of area failing: ar1_not_enough 2, r1_bias 1, non_normal 13, heteroscedastic 6, curvature 3, breakpoint 1, small_n_eff 0, test_disagrees 8
+  box: trend +4.137/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.10, r2 +0.08 (AR(1): 0.01)
+--- cf_total, ERA5 ---
+  merra2_instM_3d_asm_Np_PS_africa_10_40: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_africa_10_40: 47 files (0 read now, 47 from the cache)
+  cells: 8030, median r1 +0.02 (bias-corrected +0.04); % of area failing: ar1_not_enough 0, r1_bias 2, non_normal 20, heteroscedastic 14, curvature 5, breakpoint 4, small_n_eff 0, test_disagrees 10
+  box: trend -1.569/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.09, r2 +0.08 (AR(1): 0.01)
+--- cf_total, MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_africa_10_40: 558 files (0 read now, 558 from the cache)
+  cells: 1620, median r1 -0.12 (bias-corrected -0.11); % of area failing: ar1_not_enough 2, r1_bias 0, non_normal 5, heteroscedastic 1, curvature 1, breakpoint 5, small_n_eff 0, test_disagrees 6
+  box: trend -1.731/decade, p 0.001 (r1 corrected 0.001, Mann-Kendall 0.001, bootstrap 0.000); r1 -0.28, r2 -0.00 (AR(1): 0.08)
+--- cf_total, JRA-3Q ---
+  jra3q_tcdc-tcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  cells: 332, median r1 -0.08 (bias-corrected -0.06); % of area failing: ar1_not_enough 5, r1_bias 1, non_normal 8, heteroscedastic 4, curvature 4, breakpoint 8, small_n_eff 0, test_disagrees 5
+  box: trend -0.378/decade, p 0.323 (r1 corrected 0.323, Mann-Kendall 0.449, bootstrap 0.237); r1 -0.17, r2 +0.05 (AR(1): 0.03)
+--- cf_total, CLARA-A3 ---
+  cmsaf_CFC_cfc_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_high_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_low_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cells: 7971, median r1 -0.08 (bias-corrected -0.06); % of area failing: ar1_not_enough 5, r1_bias 1, non_normal 7, heteroscedastic 3, curvature 4, breakpoint 1, small_n_eff 0, test_disagrees 6
+  box: trend -2.510/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.05, r2 -0.00 (AR(1): 0.00)
+--- cf_high, ERA5 ---
+  merra2_instM_3d_asm_Np_PS_africa_10_40: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_africa_10_40: 47 files (0 read now, 47 from the cache)
+  cells: 8030, median r1 +0.00 (bias-corrected +0.03); % of area failing: ar1_not_enough 2, r1_bias 1, non_normal 49, heteroscedastic 19, curvature 4, breakpoint 5, small_n_eff 0, test_disagrees 7
+  box: trend -1.302/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.08, r2 +0.10 (AR(1): 0.01)
+--- cf_high, MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_africa_10_40: 558 files (0 read now, 558 from the cache)
+  cells: 1620, median r1 -0.10 (bias-corrected -0.09); % of area failing: ar1_not_enough 3, r1_bias 0, non_normal 7, heteroscedastic 3, curvature 2, breakpoint 9, small_n_eff 0, test_disagrees 6
+  box: trend -1.567/decade, p 0.002 (r1 corrected 0.002, Mann-Kendall 0.001, bootstrap 0.000); r1 -0.25, r2 +0.02 (AR(1): 0.06)
+--- cf_high, JRA-3Q ---
+  jra3q_tcdc-tcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  cells: 332, median r1 -0.12 (bias-corrected -0.10); % of area failing: ar1_not_enough 1, r1_bias 0, non_normal 11, heteroscedastic 1, curvature 4, breakpoint 1, small_n_eff 0, test_disagrees 4
+  box: trend +0.160/decade, p 0.653 (r1 corrected 0.653, Mann-Kendall 0.705, bootstrap 0.547); r1 -0.25, r2 +0.04 (AR(1): 0.06)
+--- cf_high, CLARA-A3 ---
+  cmsaf_CFC_cfc_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_high_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_low_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cells: 7971, median r1 -0.07 (bias-corrected -0.05); % of area failing: ar1_not_enough 5, r1_bias 1, non_normal 10, heteroscedastic 1, curvature 3, breakpoint 1, small_n_eff 0, test_disagrees 8
+  box: trend -1.665/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.14, r2 -0.02 (AR(1): 0.02)
+--- cf_mid, ERA5 ---
+  merra2_instM_3d_asm_Np_PS_africa_10_40: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_africa_10_40: 47 files (0 read now, 47 from the cache)
+  cells: 8030, median r1 -0.06 (bias-corrected -0.04); % of area failing: ar1_not_enough 3, r1_bias 0, non_normal 23, heteroscedastic 13, curvature 3, breakpoint 6, small_n_eff 0, test_disagrees 6
+  box: trend -0.158/decade, p 0.032 (r1 corrected 0.037, Mann-Kendall 0.050, bootstrap 0.023); r1 +0.08, r2 +0.18 (AR(1): 0.01)
+--- cf_mid, MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_africa_10_40: 558 files (0 read now, 558 from the cache)
+  cells: 1620, median r1 -0.04 (bias-corrected -0.02); % of area failing: ar1_not_enough 9, r1_bias 1, non_normal 20, heteroscedastic 13, curvature 9, breakpoint 9, small_n_eff 0, test_disagrees 7
+  box: trend -0.283/decade, p 0.039 (r1 corrected 0.039, Mann-Kendall 0.015, bootstrap 0.007); r1 -0.10, r2 +0.00 (AR(1): 0.01)
+--- cf_mid, JRA-3Q ---
+  jra3q_tcdc-tcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  cells: 332, median r1 -0.01 (bias-corrected +0.02); % of area failing: ar1_not_enough 5, r1_bias 1, non_normal 12, heteroscedastic 6, curvature 1, breakpoint 8, small_n_eff 0, test_disagrees 3
+  box: trend -0.391/decade, p 0.113 (r1 corrected 0.129, Mann-Kendall 0.071, bootstrap 0.043); r1 +0.21, r2 -0.04 (AR(1): 0.04)
+--- cf_mid, CLARA-A3 ---
+  cmsaf_CFC_cfc_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_high_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_low_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cells: 7971, median r1 +0.02 (bias-corrected +0.05); % of area failing: ar1_not_enough 6, r1_bias 2, non_normal 22, heteroscedastic 24, curvature 4, breakpoint 18, small_n_eff 0, test_disagrees 8
+  box: trend -1.034/decade, p 0.000 (r1 corrected 0.001, Mann-Kendall 0.000, bootstrap 0.000); r1 +0.21, r2 +0.02 (AR(1): 0.05)
+--- cf_low, ERA5 ---
+  merra2_instM_3d_asm_Np_PS_africa_10_40: 558 files (0 read now, 558 from the cache)
+  era5_cloud_layers_max_africa_10_40: 47 files (0 read now, 47 from the cache)
+  cells: 8030, median r1 +nan (bias-corrected +nan); % of area failing: ar1_not_enough 2, r1_bias 1, non_normal 65, heteroscedastic 13, curvature 7, breakpoint 3, small_n_eff 0, test_disagrees 13
+  box: trend -0.325/decade, p 0.001 (r1 corrected 0.001, Mann-Kendall 0.002, bootstrap 0.000); r1 +0.03, r2 -0.34 (AR(1): 0.00)
+--- cf_low, MERRA-2 ---
+  merra2_tavgM_2d_rad_Nx_CLDTOT_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDHGH_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDMID_africa_10_40: 558 files (0 read now, 558 from the cache)
+  merra2_tavgM_2d_rad_Nx_CLDLOW_africa_10_40: 558 files (0 read now, 558 from the cache)
+  cells: 1620, median r1 -0.05 (bias-corrected -0.03); % of area failing: ar1_not_enough 3, r1_bias 0, non_normal 16, heteroscedastic 12, curvature 7, breakpoint 9, small_n_eff 0, test_disagrees 7
+  box: trend -0.484/decade, p 0.005 (r1 corrected 0.005, Mann-Kendall 0.008, bootstrap 0.002); r1 -0.12, r2 +0.05 (AR(1): 0.01)
+--- cf_low, JRA-3Q ---
+  jra3q_tcdc-tcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_hcdc-hcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_mcdc-mcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  jra3q_lcdc-lcl-fc-ll125_africa_10_40: 565 files (0 read now, 565 from the cache)
+  cells: 332, median r1 +0.03 (bias-corrected +0.06); % of area failing: ar1_not_enough 3, r1_bias 1, non_normal 46, heteroscedastic 9, curvature 7, breakpoint 9, small_n_eff 0, test_disagrees 9
+  box: trend -0.380/decade, p 0.005 (r1 corrected 0.005, Mann-Kendall 0.007, bootstrap 0.000); r1 -0.10, r2 -0.10 (AR(1): 0.01)
+--- cf_low, CLARA-A3 ---
+  cmsaf_CFC_cfc_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_high_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_high_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_middle_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cmsaf_CFC_cfc_low_africa_10_40: 561 cached, reading 2 file(s) with 5 worker(s) ...
+    2/2 read (0.0 min)
+  cmsaf_CFC_cfc_low_africa_10_40: 561 files (0 read now, 561 from the cache)
+  SKIPPED clara_a3_thematic_cloud_properties_m08_CFCmm19810801000000319AVPOS01GL.nc: ValueError: record_status not ok
+  SKIPPED clara_a3_thematic_cloud_properties_m02_CFCmm19850201000000319AVPOS01GL.nc: ValueError: record_status not ok
+  cells: 7971, median r1 +nan (bias-corrected +nan); % of area failing: ar1_not_enough 6, r1_bias 0, non_normal 70, heteroscedastic 7, curvature 5, breakpoint 8, small_n_eff 0, test_disagrees 4
+  box: trend +0.191/decade, p 0.021 (r1 corrected 0.024, Mann-Kendall 0.024, bootstrap 0.004); r1 +0.00, r2 -0.20 (AR(1): 0.00)
+--- qred, ERA5 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- qred, MERRA-2 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- qred, JRA-3Q ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- qrad, ERA5 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- qrad, MERRA-2 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- qrad, JRA-3Q ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- qrad, CLARA-A3 ---
+  [WARN] left out: ModuleNotFoundError: No module named 'rad_budget_trends'
+--- omega300, ERA5 ---
+  era5_w_omega_100-150-200-250-300-400-500-600-700-850-925-1000_m10: 47 files (0 read now, 47 from the cache)
+  cells: 8030, median r1 -0.09 (bias-corrected -0.07); % of area failing: ar1_not_enough 3, r1_bias 0, non_normal 15, heteroscedastic 5, curvature 9, breakpoint 4, small_n_eff 0, test_disagrees 4
+  box: trend +0.002/decade, p 0.008 (r1 corrected 0.008, Mann-Kendall 0.009, bootstrap 0.003); r1 -0.10, r2 +0.11 (AR(1): 0.01)
+--- omega300, MERRA-2 ---
+  merra2_instM_3d_asm_Np_OMEGA_omega_100-150-200-250-300-400-500-600-700-850-925-1000: 46 files (0 read now, 46 from the cache)
+  cells: 1620, median r1 -0.05 (bias-corrected -0.04); % of area failing: ar1_not_enough 5, r1_bias 1, non_normal 13, heteroscedastic 14, curvature 9, breakpoint 12, small_n_eff 0, test_disagrees 7
+  box: trend +0.003/decade, p 0.006 (r1 corrected 0.008, Mann-Kendall 0.002, bootstrap 0.001); r1 +0.12, r2 +0.11 (AR(1): 0.02)
+--- omega300, JRA-3Q ---
+  jra3q_vvel-pres-an-ll125_omega_100-150-200-250-300-400-500-600-700-850-925-1000: 47 files (0 read now, 47 from the cache)
+  cells: 332, median r1 -0.10 (bias-corrected -0.08); % of area failing: ar1_not_enough 3, r1_bias 1, non_normal 15, heteroscedastic 5, curvature 17, breakpoint 8, small_n_eff 0, test_disagrees 5
+  box: trend +0.001/decade, p 0.123 (r1 corrected 0.123, Mann-Kendall 0.156, bootstrap 0.054); r1 -0.16, r2 +0.12 (AR(1): 0.03)
+--- rh850, ERA5 ---
+  era5_r_africa_south_850: 47 files (0 read now, 47 from the cache)
+  era5_q_africa_south_850: 47 files (0 read now, 47 from the cache)
+  era5_t_africa_south_850: 47 files (0 read now, 47 from the cache)
+  cells: 8030, median r1 -0.04 (bias-corrected -0.02); % of area failing: ar1_not_enough 1, r1_bias 1, non_normal 13, heteroscedastic 5, curvature 7, breakpoint 9, small_n_eff 0, test_disagrees 2
+  box: trend -2.263/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.15, r2 -0.06 (AR(1): 0.02)
+--- rh850, MERRA-2 ---
+  merra2_instM_3d_asm_Np_RH_africa_south_850: 558 files (0 read now, 558 from the cache)
+  merra2_instM_3d_asm_Np_QV_africa_south_850: 558 files (0 read now, 558 from the cache)
+  merra2_instM_3d_asm_Np_T_africa_south_850: 558 files (0 read now, 558 from the cache)
+  [WARN] rh850 MERRA-2: cells missing in 1980 (1%), 1981 (1%), 1982 (1%), 1983 (1%), 1984 (2%), 1985 (1%), 1986 (1%), 1987 (1%), 1988 (2%), 1989 (1%), 1990 (1%), 1991 (1%) ...; those cells are left out of the trends
+  cells: 1527, median r1 -0.00 (bias-corrected +0.02); % of area failing: ar1_not_enough 7, r1_bias 1, non_normal 9, heteroscedastic 5, curvature 8, breakpoint 11, small_n_eff 0, test_disagrees 6
+  box: trend -0.811/decade, p 0.015 (r1 corrected 0.015, Mann-Kendall 0.020, bootstrap 0.002); r1 -0.13, r2 -0.03 (AR(1): 0.02)
+--- rh850, JRA-3Q ---
+  jra3q_rh-pres-an-ll125_africa_south_850: 565 files (0 read now, 565 from the cache)
+  jra3q_spfh-pres-an-ll125_africa_south_850: 565 files (0 read now, 565 from the cache)
+  jra3q_grib_anl_p125_tmp_africa_south_850: 552 files (0 read now, 552 from the cache)
+  cells: 332, median r1 -0.01 (bias-corrected +0.01); % of area failing: ar1_not_enough 1, r1_bias 2, non_normal 12, heteroscedastic 6, curvature 7, breakpoint 8, small_n_eff 0, test_disagrees 13
+  box: trend -1.004/decade, p 0.007 (r1 corrected 0.007, Mann-Kendall 0.008, bootstrap 0.000); r1 -0.16, r2 -0.03 (AR(1): 0.02)
+saved /hn01-home/jesu4127/southern_african_warming/data/stats_assumptions/cells_10.csv, box_10.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/stats_assumptions/stats_assumptions_10.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+--- t2m, ERA5 ---
+  cells: 8030, median r1 -0.10 (bias-corrected -0.08); % of area failing: ar1_not_enough 8, r1_bias 0, non_normal 2, heteroscedastic 9, curvature 6, breakpoint 6, small_n_eff 0, test_disagrees 3
+  box: trend +0.452/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.20, r2 -0.31 (AR(1): 0.04)
+--- t2m, MERRA-2 ---
+  merra2_instM_2d_asm_Nx_T2M_southern_africa: 559 files (0 read now, 559 from the cache)
+  cells: 1620, median r1 -0.11 (bias-corrected -0.09); % of area failing: ar1_not_enough 7, r1_bias 0, non_normal 8, heteroscedastic 5, curvature 7, breakpoint 10, small_n_eff 0, test_disagrees 5
+  box: trend +0.315/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.19, r2 -0.25 (AR(1): 0.04)
+--- t2m, JRA-3Q ---
+  jra3q_tmp2m-hgt-an-gauss_southern_africa: 564 files (0 read now, 564 from the cache)
+  cells: 3525, median r1 -0.08 (bias-corrected -0.07); % of area failing: ar1_not_enough 9, r1_bias 0, non_normal 6, heteroscedastic 7, curvature 7, breakpoint 6, small_n_eff 0, test_disagrees 4
+  box: trend +0.383/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.18, r2 -0.37 (AR(1): 0.03)
+--- t2m, NOAA ---
+  cells: 21, median r1 -0.11 (bias-corrected -0.09); % of area failing: ar1_not_enough 5, r1_bias 0, non_normal 4, heteroscedastic 5, curvature 10, breakpoint 0, small_n_eff 0, test_disagrees 0
+  box: trend +0.332/decade, p 0.000 (r1 corrected 0.000, Mann-Kendall 0.000, bootstrap 0.000); r1 -0.10, r2 -0.17 (AR(1): 0.01)
+--- t2m, CHIRTS ---
+  chirts_tmean_southern_africa: 34 files (0 read now, 34 from the cache)

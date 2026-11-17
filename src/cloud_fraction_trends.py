@@ -173,8 +173,9 @@ def plot_layer(layer):
     r = config.REGIONS[MAP]
     mw = (W - left - right - (len(NAMES) - 1) * gap) / len(NAMES)
     mh = mw * (r["lat"][1] - r["lat"][0]) / (r["lon"][1] - r["lon"][0])
-    box_top, box_h = 0.62, 1.25
-    map_top = box_top + box_h + 0.55
+    box_top, box_h = 0.45, 1.25
+    head = 0.4                                     # dataset name and years above each map
+    map_top = box_top + box_h + 0.55 + head
     cb_top = map_top + mh + 0.3
     ts_top, ts_h = cb_top + 0.8, 1.15
     H = ts_top + ts_h + 0.95 + (0.25 if layer != "total" else 0)
@@ -189,11 +190,17 @@ def plot_layer(layer):
                       handlelength=1.2, columnspacing=1.0, borderaxespad=0.2)
 
     norm = ps.sym_norm([res[n].trend.sel(month=MONTH) for n in names])
+    lay = LAYERS[layer][0].lower() + LAYERS[layer][1:]
+    ps.text(fig, W / 2, map_top - head - 0.08, f"{calendar.month_name[MONTH]} {lay} trends",
+            ha="center", fontsize=fs["title"], fontweight="bold")
     for i, name in enumerate(NAMES):
         x0 = left + i * (mw + gap)
         ax = at(x0, map_top, mw, mh, projection=ccrs.PlateCarree())
-        ps.text(fig, x0 + mw / 2, map_top - 0.04, ps.label(name), ha="center",
+        ps.text(fig, x0 + mw / 2, map_top - 0.2, ps.label(name), ha="center",
                 fontsize=fs["title"], fontweight="bold", color=ps.colour(name))
+        if name in res:
+            ps.text(fig, x0 + mw / 2, map_top - 0.03, ps.span(years[name]), ha="center",
+                    fontsize=fs["small"], color="0.25")
         if name not in res:
             ps.map_frame(ax, MAP, left=(i == 0), xticks=[15, 30])
             continue
@@ -203,7 +210,7 @@ def plot_layer(layer):
         ps.letter(ax, i + 1)
     ps.colourbar(fig, at(left + 0.5, cb_top, W - left - right - 1.0, 0.08), norm, "RdBu_r",
                  f"{calendar.month_name[MONTH]} trend (% points decade$^{{-1}}$); dots: "
-                 f"significant (FDR q = {config.ALPHA_FDR:.2f}); dashed: box of a) and f)")
+                 f"significant (FDR q = {config.ALPHA_FDR:.2f})")
 
     ax = at(left, ts_top, W - left - right, ts_h)
     for name in names:
@@ -222,8 +229,6 @@ def plot_layer(layer):
     ps.text(fig, W / 2, ts_top - 0.05, f"{calendar.month_name[MONTH]} area-weighted land anomaly "
             f"over the box (from {config.BASELINE[0]}-{config.BASELINE[1]})", ha="center",
             fontsize=fs["title"], fontweight="bold")
-    ps.text(fig, W / 2, 0.05, f"{LAYERS[layer]} trends", ha="center", va="top",
-            fontsize=fs["suptitle"], fontweight="bold")
     if layer != "total":
         ps.text(fig, W / 2, H - 0.05, NOTE, ha="center", fontsize=fs["small"], color="0.3",
                 va="bottom", wrap=True)

@@ -1,0 +1,155 @@
+============================================
+CHIRTS overlay job
+Job ID: 1072191
+Node: ouce-cn55
+Started: Mon 16 Nov 17:19:27 UTC 2026
+============================================
+  merra2_instM_3d_asm_Np_PS_southern_africa: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.0 min)
+    50/558 read (0.1 min)
+    75/558 read (0.1 min)
+    100/558 read (0.1 min)
+    125/558 read (0.1 min)
+    150/558 read (0.1 min)
+    175/558 read (0.1 min)
+    200/558 read (0.1 min)
+    225/558 read (0.1 min)
+    250/558 read (0.1 min)
+    275/558 read (0.1 min)
+    300/558 read (0.1 min)
+    325/558 read (0.1 min)
+    350/558 read (0.1 min)
+    375/558 read (0.1 min)
+    400/558 read (0.2 min)
+    425/558 read (0.2 min)
+    450/558 read (0.2 min)
+    475/558 read (0.2 min)
+    500/558 read (0.2 min)
+    525/558 read (0.2 min)
+    550/558 read (0.2 min)
+    558/558 read (0.2 min)
+  merra2_instM_3d_asm_Np_PS_southern_africa: 558 files (558 read now, 0 from the cache)
+--- ERA5 ---
+  era5_t_southern_africa_100-150-200-250-300-400-500-600-700-850-925-1000: 0 cached, reading 47 file(s) with 5 worker(s) ...
+    25/47 read (0.1 min)
+    47/47 read (0.1 min)
+  era5_t_southern_africa_100-150-200-250-300-400-500-600-700-850-925-1000: 47 files (47 read now, 0 from the cache)
+  Oct box means (°C/decade, * p < 0.05): 100: -0.18, 150: +0.14, 200: +0.21*, 250: +0.31*, 300: +0.34*, 400: +0.30*, 500: +0.21*, 600: +0.29*, 700: +0.40*, 850: +0.48*, 925: +0.36*, 1000: +0.29*
+--- MERRA-2 ---
+  merra2_instM_3d_asm_Np_T_southern_africa_100-150-200-250-300-400-500-600-700-850-925-1000: 0 cached, reading 558 file(s) with 5 worker(s) ...
+    25/558 read (0.0 min)
+    50/558 read (0.0 min)
+    75/558 read (0.0 min)
+    100/558 read (0.0 min)
+    125/558 read (0.0 min)
+    150/558 read (0.1 min)
+    175/558 read (0.1 min)
+    200/558 read (0.1 min)
+    225/558 read (0.1 min)
+    250/558 read (0.1 min)
+    275/558 read (0.1 min)
+    300/558 read (0.1 min)
+    325/558 read (0.1 min)
+    350/558 read (0.1 min)
+    375/558 read (0.1 min)
+    400/558 read (0.1 min)
+    425/558 read (0.1 min)
+    450/558 read (0.2 min)
+    475/558 read (0.2 min)
+    500/558 read (0.2 min)
+    525/558 read (0.2 min)
+    550/558 read (0.2 min)
+    558/558 read (0.2 min)
+  merra2_instM_3d_asm_Np_T_southern_africa_100-150-200-250-300-400-500-600-700-850-925-1000: 558 files (558 read now, 0 from the cache)
+  Oct box means (°C/decade, * p < 0.05): 100: -0.25*, 150: +0.17*, 200: +0.32*, 250: +0.32*, 300: +0.37*, 400: +0.36*, 500: +0.23*, 600: +0.26*, 700: +0.35*, 850: +0.36*, 925: +0.29*, 1000: +0.19*
+--- JRA-3Q ---
+  jra3q_grib_anl_p125_tmp_southern_africa_100-150-200-250-300-400-500-600-700-850-925-1000: 0 cached, reading 552 file(s) with 5 worker(s) ...
+    6/552 read (1.0 min)
+    17/552 read (2.1 min)
+    25/552 read (2.7 min)
+    36/552 read (4.0 min)
+    46/552 read (5.0 min)
+    50/552 read (5.1 min)
+    60/552 read (6.2 min)
+    70/552 read (7.2 min)
+    75/552 read (7.7 min)
+    85/552 read (8.7 min)
+    94/552 read (9.8 min)
+    100/552 read (10.3 min)
+    110/552 read (11.3 min)
+    120/552 read (12.4 min)
+    125/552 read (12.9 min)
+    135/552 read (14.0 min)
+    145/552 read (15.0 min)
+    150/552 read (15.5 min)
+    160/552 read (16.5 min)
+    170/552 read (17.6 min)
+    175/552 read (18.1 min)
+    184/552 read (19.1 min)
+    194/552 read (20.1 min)
+    200/552 read (20.7 min)
+    210/552 read (21.8 min)
+    220/552 read (22.8 min)
+    225/552 read (23.3 min)
+    236/552 read (24.4 min)
+    246/552 read (25.5 min)
+    250/552 read (25.8 min)
+    260/552 read (26.9 min)
+    270/552 read (27.9 min)
+    275/552 read (28.4 min)
+    285/552 read (29.4 min)
+    295/552 read (30.5 min)
+    300/552 read (31.0 min)
+    309/552 read (32.0 min)
+    319/552 read (33.0 min)
+    325/552 read (33.7 min)
+    335/552 read (34.7 min)
+    345/552 read (35.7 min)
+    350/552 read (36.3 min)
+    359/552 read (37.3 min)
+    368/552 read (38.4 min)
+    375/552 read (39.0 min)
+    385/552 read (40.1 min)
+    394/552 read (41.1 min)
+    400/552 read (41.6 min)
+    409/552 read (42.7 min)
+    419/552 read (43.7 min)
+    425/552 read (44.3 min)
+    435/552 read (45.3 min)
+    445/552 read (46.4 min)
+    450/552 read (46.9 min)
+    460/552 read (48.0 min)
+    470/552 read (49.0 min)
+    475/552 read (49.6 min)
+    484/552 read (50.6 min)
+    493/552 read (51.6 min)
+    500/552 read (52.4 min)
+    510/552 read (53.4 min)
+    519/552 read (54.4 min)
+    525/552 read (55.1 min)
+    535/552 read (56.2 min)
+    545/552 read (57.2 min)
+    550/552 read (57.8 min)
+    552/552 read (57.9 min)
+  jra3q_grib_anl_p125_tmp_southern_africa_100-150-200-250-300-400-500-600-700-850-925-1000: 552 files (552 read now, 0 from the cache)
+  Oct box means (°C/decade, * p < 0.05): 100: -0.45*, 150: -0.02, 200: +0.22*, 250: +0.37*, 300: +0.40*, 400: +0.33*, 500: +0.26*, 600: +0.28*, 700: +0.29*, 850: +0.34*, 925: +0.35*, 1000: +0.22*
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/ta_levels_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_maps_oct_ERA5.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_maps_oct_MERRA2.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_maps_oct_JRA3Q.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_profile_oct.png
+
+Python version:
+Python 3.13.14
+
+Starting analysis...
+============================================
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/ta_levels_summary.csv
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_maps_oct_ERA5.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_maps_oct_MERRA2.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_maps_oct_JRA3Q.png
+Saved: /hn01-home/jesu4127/southern_african_warming/results/temperature_levels/october/ta_levels_profile_oct.png
+
+============================================
+Finished: Mon 16 Nov 18:18:34 UTC 2026
+============================================

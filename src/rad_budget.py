@@ -186,7 +186,8 @@ def plot_budget(budget):
     mw = (W - left - right - (nd - 1) * gap) / nd
     mh = mw * (r["lat"][1] - r["lat"][0]) / (r["lon"][1] - r["lon"][0])
     box_top, box_h = 0.6, 1.2
-    map_top = box_top + box_h + 0.5
+    head = 0.4                                     # dataset name and years above each map
+    map_top = box_top + box_h + 0.55 + head
     gy = 0.24
     cb1 = map_top + mh + 0.32
     row2 = cb1 + 0.62
@@ -206,6 +207,9 @@ def plot_budget(budget):
 
     # October maps
     norm = ps.sym_norm([res[n].trend.sel(month=MONTH) for n in names])
+    ps.text(fig, left + (W - left - right) / 2, map_top - head - 0.08,
+            f"{calendar.month_name[MONTH]} trends", ha="center", fontsize=fs["title"],
+            fontweight="bold")
     rows = [f"{calendar.month_abbr[MONTH]} {qlab}\ntrend", "Dominant flux,\nstrengthening",
             "Dominant flux,\nweakening"]
     tops = [map_top, row2, row2 + mh + gy]
@@ -225,8 +229,10 @@ def plot_budget(budget):
             sig = o.sig.astype(bool).values
             if ri == 0:
                 ps.map_panel(ax, o.trend, norm, sig=sig, region=REGION, left=(ci == 0))
-                ps.text(fig, x0 + mw / 2, t0 - 0.05, ps.label(name), ha="center",
+                ps.text(fig, x0 + mw / 2, t0 - 0.2, ps.label(name), ha="center",
                         fontsize=fs["title"], fontweight="bold", color=ps.colour(name))
+                ps.text(fig, x0 + mw / 2, t0 - 0.03, ps.span(years[name]), ha="center",
+                        fontsize=fs["small"], color="0.25")
             else:
                 code, rising, size = dominant(o)
                 want = rising if ri == 1 else ~rising
@@ -257,10 +263,8 @@ def plot_budget(budget):
                       extend="max")
     cb.ax.tick_params(labelsize=fs["tick"], length=2)
     cb.outline.set_linewidth(0.4)
-    ps.text(fig, left + 2.85, leg_top + 0.72, "Colour strength (any flux): size of the\n"
-            "dominant flux's change, W m$^{-2}$ decade$^{-1}$\n"
-            f"(full colour: largest {100 - CMAP_PERCENTILE:.0f}% of cells in these maps)",
-            fontsize=fs["small"], va="center")
+    ps.text(fig, left + 2.85, leg_top + 0.66, "Colour saturation = dominant flux change\n"
+            "(W m$^{-2}$ decade$^{-1}$)", fontsize=fs["small"], va="center")
     ps.save(fig, config.RESULTS / OUT / ("qred_full_budget.png" if budget == "full"
                                          else "qrad_budget.png"))
 

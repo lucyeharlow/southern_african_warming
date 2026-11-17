@@ -1,0 +1,153 @@
+Started Thu 12 Nov 10:02:41 UTC 2026 on ouce-cn55 with 6 readers
+--- reading ERA5 hourly October files (12-hour means, cached) ---
+  [NOTE] t2m: no October file for [2025]
+  era5h12_t2m_composite: 46 files (0 read now, 46 from the cache)
+  [NOTE] q850: no October file for [2025]
+  era5h12_q850_composite: 14 cached, reading 32 file(s) with 6 worker(s) ...
+    1/32 read (1.1 min)
+    2/32 read (5.9 min)
+    7/32 read (6.9 min)
+    11/32 read (7.9 min)
+    13/32 read (9.2 min)
+    15/32 read (10.8 min)
+    20/32 read (12.0 min)
+    24/32 read (13.1 min)
+    25/32 read (13.4 min)
+    32/32 read (14.2 min)
+  era5h12_q850_composite: 44 files (30 read now, 14 from the cache)
+  SKIPPED era5_hourly_specific_humidity_202310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_specific_humidity_202410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  [NOTE] t850: no October file for [2025]
+  era5h12_t850_composite: 0 cached, reading 46 file(s) with 6 worker(s) ...
+    2/46 read (1.4 min)
+    5/46 read (2.4 min)
+    8/46 read (3.6 min)
+    14/46 read (5.4 min)
+    15/46 read (9.1 min)
+    17/46 read (10.2 min)
+    19/46 read (11.2 min)
+    25/46 read (12.3 min)
+    28/46 read (13.6 min)
+    30/46 read (14.6 min)
+    35/46 read (16.2 min)
+    36/46 read (17.2 min)
+    39/46 read (18.2 min)
+    44/46 read (20.0 min)
+    46/46 read (20.1 min)
+  era5h12_t850_composite: 45 files (45 read now, 0 from the cache)
+  SKIPPED era5_hourly_temperature_202410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  [NOTE] w500: no October file for [2025]
+  era5h12_w500_composite: 0 cached, reading 46 file(s) with 6 worker(s) ...
+    4/46 read (1.3 min)
+    7/46 read (2.5 min)
+    11/46 read (3.6 min)
+    14/46 read (5.3 min)
+    19/46 read (6.8 min)
+    22/46 read (7.9 min)
+    25/46 read (8.5 min)
+    28/46 read (10.3 min)
+    32/46 read (11.4 min)
+    35/46 read (12.8 min)
+    39/46 read (14.1 min)
+    45/46 read (15.5 min)
+    46/46 read (18.5 min)
+  era5h12_w500_composite: 44 files (44 read now, 0 from the cache)
+  SKIPPED era5_hourly_vertical_velocity_202310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_vertical_velocity_202410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  [NOTE] w300: no October file for [2025]
+  era5h12_w300_composite: 0 cached, reading 46 file(s) with 6 worker(s) ...
+    3/46 read (1.1 min)
+    6/46 read (2.1 min)
+    11/46 read (3.6 min)
+    14/46 read (5.1 min)
+    18/46 read (6.1 min)
+    21/46 read (7.3 min)
+    25/46 read (8.3 min)
+    27/46 read (9.4 min)
+    30/46 read (11.1 min)
+    33/46 read (12.3 min)
+    37/46 read (13.3 min)
+    39/46 read (14.5 min)
+    45/46 read (15.6 min)
+    46/46 read (18.8 min)
+  era5h12_w300_composite: 44 files (44 read now, 0 from the cache)
+  SKIPPED era5_hourly_vertical_velocity_202310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_vertical_velocity_202410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  [NOTE] lh: no October file for [2025]
+  era5h12_lh_composite: 0 cached, reading 46 file(s) with 6 worker(s) ...
+    25/46 read (0.0 min)
+    46/46 read (0.0 min)
+  era5h12_lh_composite: 0 files (0 read now, 0 from the cache)
+  SKIPPED era5_hourly_surface_latent_heat_flux_197910.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198210.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198510.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198610.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198710.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198810.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198110.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198010.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198910.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_198310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199010.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199110.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199210.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199510.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199610.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199710.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199910.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200110.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_199810.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200010.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200210.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200610.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200510.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200710.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200810.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_200910.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201010.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201210.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201110.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201510.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201610.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201710.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201810.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_201910.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_202010.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_202110.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_202210.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_202310.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+  SKIPPED era5_hourly_surface_latent_heat_flux_202410.grb: ValueError: unrecognized engine cfgrib must be one of: ['netcdf4', 'h5netcdf', 'scipy', 'store', 'zarr']
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/xarray/core/concat.py", line 228, in concat
+    first_obj, objs = utils.peek_at(objs)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/xarray/core/utils.py", line 205, in peek_at
+    peek = next(gen)
+           ^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/soge-home/users/jesu4127/southern_african_warming/src/hourly_composites.py", line 529, in <module>
+    compute()
+  File "/soge-home/users/jesu4127/southern_african_warming/src/hourly_composites.py", line 299, in compute
+    fields = read_all()
+             ^^^^^^^^^^
+  File "/soge-home/users/jesu4127/southern_african_warming/src/hourly_composites.py", line 292, in read_all
+    return {k: load(k) for k in VARS}
+               ^^^^^^^
+  File "/soge-home/users/jesu4127/southern_african_warming/src/hourly_composites.py", line 213, in load
+    return xr.concat([fields[y] for y in years], "year").assign_coords(year=years)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/xarray/core/concat.py", line 230, in concat
+    raise ValueError("must supply at least one object to concatenate")
+ValueError: must supply at least one object to concatenate
+Finished Thu 12 Nov 11:14:37 UTC 2026

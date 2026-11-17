@@ -129,7 +129,7 @@ def plot(months=(10,), var_list=("t2m", "sw")):
             names = list(res)
             tops = [top + i * (ph + gy) for i in range(len(names))]
             cb_top = tops[-1] + ph + 0.4
-            H = cb_top + 1.45
+            H = cb_top + 1.6
             fig, at = ps.figure("full", H)
             tnorm = ps.sym_norm([d.x_trend for d in res.values()])
             rnorm = TwoSlopeNorm(vmin=-1, vcenter=0, vmax=1)
@@ -165,18 +165,19 @@ def plot(months=(10,), var_list=("t2m", "sw")):
             ps.colourbar(fig, at(left, cb_top, 1.75, 0.08), tnorm, "RdBu_r",
                          f"{v['short']} trend ({v['units']} decade$^{{-1}}$)", nticks=5)
             cb = fig.colorbar(plt.cm.ScalarMappable(norm=rnorm, cmap="RdBu_r"),
-                              cax=at(left + 2.2, cb_top, 1.75, 0.08), orientation="horizontal",
+                              cax=at(left + 2.6, cb_top, 1.9, 0.08), orientation="horizontal",
                               ticks=[-1, -0.5, 0, 0.5, 1])
-            cb.set_label("r (colour strength in columns 3-4 = |r|)", fontsize=fs["label"])
+            cb.set_label("r = colour saturation corresponds to correlation "
+                         "strength", fontsize=fs["label"])
             cb.ax.tick_params(labelsize=fs["tick"], length=2)
             h = ps.regime_handles() + [
                 Patch(facecolor=config.C_OTHER, label=f"{v['short']} changes the other way"),
                 ps.dot_handle(f"Significant (FDR q = {config.ALPHA_FDR:.2f})")]
             fig.legend(handles=h, loc="upper center", ncol=3, frameon=False, handlelength=1.2,
-                       columnspacing=1.0, bbox_to_anchor=(0.5, 1 - (cb_top + 0.55) / H),
-                       title="ω$_{300}$ long-term change (columns 3-4); dashed: Southern Africa (10-40°E, 35-10°S)", title_fontsize=fs["legend"])
+                       columnspacing=1.0, bbox_to_anchor=(0.5, 1 - (cb_top + 0.7) / H),
+                       title="ω$_{300}$ long-term change", title_fontsize=fs["legend"])
             ps.text(fig, W / 2, 0.06, f"{calendar.month_name[m]}: detrended correlation of ω at "
-                    f"{OMEGA_LEV:.0f} hPa with {v['long']}, land", ha="center", va="top",
+                    f"{OMEGA_LEV:.0f} hPa with {v['long']}", ha="center", va="top",
                     fontsize=fs["suptitle"], fontweight="bold")
             ps.save(fig, config.RESULTS / OUT / f"omega300_{var}_{m:02d}_{calendar.month_abbr[m]}.png")
 
